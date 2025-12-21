@@ -1,6 +1,6 @@
 import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
-import { FiSend, FiPlay } from 'react-icons/fi'; // ArrowRight er bodole Play beshi bhalo lage
+import { FiSend, FiPlay } from 'react-icons/fi'; 
 import rovi from '../assets/Rovi1.jpg';
 
 const Hero = () => {

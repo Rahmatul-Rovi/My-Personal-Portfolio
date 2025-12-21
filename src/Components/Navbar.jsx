@@ -35,7 +35,7 @@ const Navbar = () => {
         </div>
         {/* Logo */}
         <a className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent cursor-pointer">
-          DevPortfolio
+          Rahmatul-Rovi
         </a>
       </div>
 

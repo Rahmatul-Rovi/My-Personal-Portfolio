@@ -1,6 +1,7 @@
 import React from 'react';
 import rovi from '../assets/Rovi2.jpg';
 import { FaCode, FaGraduationCap, FaUserTie } from 'react-icons/fa';
+import { FiArrowRightCircle } from 'react-icons/fi';
 
 const About = () => {
     return (
@@ -44,11 +45,13 @@ const About = () => {
                         <h3 className="text-3xl font-bold leading-tight">
                             Crafting High-Performance Websites with <span className="text-blue-600">Precision</span>
                         </h3>
-                        <p className="text-lg text-gray-500 leading-relaxed text-justify">
-                            Ami ekjon Passionate Full Stack Developer. Code lekha amar kache shudhu kaj na, eita ekta art. 
-                            React, Node.js ar modern tech stack use kore ami emon shob solution banai jeta user-der life shohoj kore. 
-                            Problem solving amar nesha ar protidin notun kisu shikha amar hoby.
-                        </p>
+                      <div className="relative p-6 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl shadow-xl">
+            <p className="text-lg text-gray-300 leading-relaxed text-justify">
+                I am a passionate <span className="text-blue-400 font-semibold">Full Stack Developer</span> who believes that writing code is an art form. 
+                By leveraging <span className="text-blue-400 font-semibold">React, Node.js</span>, and the latest technologies, I build impactful solutions that simplify complex problems for users. 
+                Problem-solving is my core drive, and I am constantly evolving by mastering new skills every single day.
+            </p>
+        </div>
                         
                         {/* Interactive Stats Grid */}
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-6">
@@ -66,13 +69,26 @@ const About = () => {
                         </div>
 
                         {/* Social/CTA Mini */}
-                        <div className="pt-4">
-                            <button 
-                            onClick={() => document.getElementById('certificates').scrollIntoView({ behavior: 'smooth' })}
-                            className="btn btn-primary rounded-xl px-10 shadow-lg shadow-blue-500/20">
-                                My Journey
-                            </button>
-                        </div>
+<div className="pt-8">
+    <button 
+        onClick={() => document.getElementById('education').scrollIntoView({ behavior: 'smooth' })}
+        className="group relative inline-flex items-center justify-center px-10 py-3.5 font-bold text-white transition-all duration-300 active:scale-95"
+    >
+        {/* Glow Background Effect */}
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-xl blur-md opacity-20 group-hover:opacity-60 transition-opacity duration-500"></div>
+        
+        {/* Main Button Body */}
+        <div className="relative flex items-center gap-3 bg-gradient-to-r from-blue-600 to-indigo-600 px-10 py-3.5 rounded-xl border border-white/20 shadow-xl overflow-hidden">
+            <span className="relative z-10">My Journey</span>
+            
+            {/* Animated Icon */}
+            <FiArrowRightCircle className="text-xl group-hover:translate-x-2 transition-transform duration-300 ease-out" />
+            
+            {/* Shine Overlay Animation */}
+            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
+        </div>
+    </button>
+</div>
                     </div>
                 </div>
             </div>
