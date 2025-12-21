@@ -1,36 +1,65 @@
 import React from 'react';
+import { Typewriter } from 'react-simple-typewriter';
+import { FiSend, FiPlay } from 'react-icons/fi'; // ArrowRight er bodole Play beshi bhalo lage
+import rovi from '../assets/Rovi1.jpg';
 
 const Hero = () => {
     return (
-        <section id="hero" className="min-h-screen flex items-center justify-center bg-base-200 pt-16">
-            <div className="hero-content flex-col lg:flex-row-reverse gap-10 px-6">
-                {/* Tumar Chobi - src/assets folder e 'profile.jpg' name rakhbe */}
-                <div className="relative group">
-                    <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
+        <section id="hero" className="min-h-screen flex items-center justify-center bg-base-100 pt-20 overflow-hidden">
+            <div className="max-w-7xl mx-auto px-6 flex flex-col lg:flex-row-reverse items-center gap-12 lg:gap-20">
+                
+                {/* Profile Image - Clean with subtle glow */}
+                <div className="relative group" data-aos="zoom-in">
+                    <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full blur opacity-25 group-hover:opacity-60 transition duration-1000"></div>
                     <img 
-                        src="https://img.freepik.com/free-vector/user-blue-gradient-vector-icon_78370-4692.jpg" 
-                        className="w-64 md:w-80 rounded-full shadow-2xl border-4 border-white relative" 
-                        alt="Profile"
+                        src={rovi} 
+                        className="w-64 md:w-80 h-64 md:h-80 rounded-full shadow-2xl border-4 border-white/10 relative object-cover" 
+                        alt="Rahmatul Rovi"
                     />
                 </div>
 
-                <div className="text-center lg:text-left">
-                    <h1 className="text-5xl md:text-7xl font-bold">
-                        Hi, I'm <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent text-6xl">Tumar Nam</span>
+                {/* Text Content */}
+                <div className="text-center lg:text-left flex-1">
+                    <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight">
+                        Hi, I'm <br className="hidden md:block" />
+                        <span className="bg-gradient-to-r from-blue-600 to-indigo-500 bg-clip-text text-transparent">
+                            Rahmatul Rovi
+                        </span>
                     </h1>
-                    <p className="py-6 text-xl md:text-2xl font-medium text-gray-600">
-                        Full Stack Web Developer | Frontend Specialist
-                    </p>
-                    <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
-                        <button
-                        onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
-                        className="btn btn-primary rounded-full px-8 hover:scale-105 transition-all">
+
+                    {/* Typewriter - Balanced Height */}
+                    <div className="py-6 h-24 md:h-20">
+                        <span className="text-2xl md:text-3xl font-bold text-gray-400">
+                            <Typewriter
+                                words={['Full Stack Web Developer', 'MERN Stack Developer']}
+                                loop={0}
+                                cursor
+                                cursorStyle='|'
+                                typeSpeed={70}
+                                deleteSpeed={50}
+                                delaySpeed={1500}
+                            />
+                        </span>
+                    </div>
+
+                    {/* Balanced Buttons */}
+                    <div className="flex flex-wrap gap-5 justify-center lg:justify-start pt-4">
+                        {/* Hire Me - Solid Premium */}
+                        <button 
+                            onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
+                            className="flex items-center gap-2 bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-3.5 rounded-xl font-bold shadow-lg shadow-blue-500/20 hover:shadow-blue-500/40 hover:-translate-y-1 transition-all duration-300 active:scale-95 group"
+                        >
                             Hire Me
+                            <FiSend className="group-hover:rotate-12 transition-transform" />
                         </button>
-                        <button
-                        onClick={() => document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })} 
-                        className="btn btn-outline btn-secondary rounded-full px-8 hover:scale-105 transition-all">
+
+                        {/* View Work - Glassmorphism */}
+                        <button 
+                            onClick={() => document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })}
+                            className="flex items-center gap-2 bg-white/5 backdrop-blur-md border border-white/10 text-white px-8 py-3.5 rounded-xl font-bold hover:bg-white/10 hover:border-blue-500/30 hover:-translate-y-1 transition-all duration-300 active:scale-95 group"
+                        >
                             View Work
+                            <FiPlay className="text-blue-500 group-hover:scale-125 transition-transform" />
                         </button>
                     </div>
                 </div>

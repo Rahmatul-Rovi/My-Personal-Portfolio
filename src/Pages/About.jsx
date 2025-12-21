@@ -1,4 +1,5 @@
 import React from 'react';
+import rovi from '../assets/Rovi2.jpg';
 import { FaCode, FaGraduationCap, FaUserTie } from 'react-icons/fa';
 
 const About = () => {
@@ -17,18 +18,23 @@ const About = () => {
                 
                 <div className="flex flex-col lg:flex-row items-center gap-16">
                     {/* Image Section with Creative Frame */}
-                    <div className="lg:w-1/2" data-aos="zoom-in-right">
-                        <div className="relative group">
-                            <div className="absolute -inset-4 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl blur opacity-25 group-hover:opacity-40 transition duration-1000"></div>
-                            <div className="relative bg-base-200 rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
-                                <img 
-                                    src="https://img.freepik.com/free-vector/user-blue-gradient-vector-icon_78370-4692.jpg" 
-                                    alt="About Me" 
-                                    className="w-full h-[400px] object-cover grayscale group-hover:grayscale-0 transition duration-500" 
-                                />
-                            </div>
-                        </div>
-                    </div>
+                   <div className="lg:w-1/2" data-aos="zoom-in-right">
+    <div className="relative group">
+        {/* Border Glow Animation */}
+        <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
+        
+        <div className="relative bg-base-200 rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
+            <img 
+                src={rovi} 
+                alt="About Me" 
+                className="w-full h-[400px] object-cover transform transition-transform duration-500 group-hover:scale-110" 
+            />
+            
+            {/* Overlay Effect on Hover */}
+            <div className="absolute inset-0 bg-blue-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+        </div>
+    </div>
+</div>
 
                     {/* Text Section */}
                     <div className="lg:w-1/2 space-y-6" data-aos="fade-left">

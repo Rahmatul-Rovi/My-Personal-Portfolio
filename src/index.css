@@ -1,2 +1,15 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+/* এই অংশটুকু যোগ করুন */
+@layer base {
+  :root, [data-theme] {
+    background-color: #1d232a !important; /* ডার্ক ব্যাকগ্রাউন্ড */
+    color: #a6adbb !important; /* টেক্সট কালার */
+  }
+
+  body {
+    background-color: #1d232a !important;
+    min-height: 100vh;
+  }
+}

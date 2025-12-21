@@ -1,11 +1,11 @@
-/** @type {import('tailwindcss').Config} */
-export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}", // Eita thik moto na thakle design pabe na
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite' // এই লাইনটি আছে কি?
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [
+    react(),
+    tailwindcss(), // প্লাগইনটি এখানে কল করতে হবে
   ],
-  theme: {
-    extend: {},
-  },
-  plugins: [require('daisyui')], // DaisyUI add koro
-}
+})
