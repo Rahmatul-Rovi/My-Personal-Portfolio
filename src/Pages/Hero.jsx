@@ -22,10 +22,14 @@ const Hero = () => {
                         Full Stack Web Developer | Frontend Specialist
                     </p>
                     <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
-                        <button className="btn btn-primary rounded-full px-8 hover:scale-105 transition-all">
+                        <button
+                        onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
+                        className="btn btn-primary rounded-full px-8 hover:scale-105 transition-all">
                             Hire Me
                         </button>
-                        <button className="btn btn-outline btn-secondary rounded-full px-8 hover:scale-105 transition-all">
+                        <button
+                        onClick={() => document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })} 
+                        className="btn btn-outline btn-secondary rounded-full px-8 hover:scale-105 transition-all">
                             View Work
                         </button>
                     </div>

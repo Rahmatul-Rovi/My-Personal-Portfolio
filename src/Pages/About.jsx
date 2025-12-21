@@ -61,7 +61,9 @@ const About = () => {
 
                         {/* Social/CTA Mini */}
                         <div className="pt-4">
-                            <button className="btn btn-primary rounded-xl px-10 shadow-lg shadow-blue-500/20">
+                            <button 
+                            onClick={() => document.getElementById('certificates').scrollIntoView({ behavior: 'smooth' })}
+                            className="btn btn-primary rounded-xl px-10 shadow-lg shadow-blue-500/20">
                                 My Journey
                             </button>
                         </div>
