@@ -13,15 +13,15 @@ const Education = () => {
         {
             id: 2,
             degree: "Higher Secondary Education",
-            institution: "Tamirul Millat Kamil Madrasah, Tongi",
+            institution: "Rajshahi Court College, Rajshahi",
             duration: "2020 - 2022",
-            description: "Science Group. Focused on Mathematics and ICT.",
+            description: "Science Group. Focused on Mathematics and ICT. Achieved GPA 5.00 with strong basics.",
         },
         {
             id: 3,
             degree: "Secondary School Certificate",
-            institution: "Your School Name Here",
-            duration: "2018 - 2020",
+            institution: "Naogaon Zilla School, Naogaon",
+            duration: "Completed-2020",
             description: "Science Group. Achieved GPA 5.00 with strong basics.",
         }
     ];
@@ -47,7 +47,7 @@ const Education = () => {
                             key={edu.id} 
                             className={`mb-12 flex justify-between items-center w-full ${
                                 index % 2 === 0 ? "md:flex-row-reverse" : "md:flex-row"
-                            } flex-row`} // Mobile-e hamesha ek side-e thakbe
+                            } flex-row`} 
                             data-aos={index % 2 === 0 ? "fade-left" : "fade-right"}
                         >
                             {/* Empty space for Zig-Zag (Desktop only) */}
