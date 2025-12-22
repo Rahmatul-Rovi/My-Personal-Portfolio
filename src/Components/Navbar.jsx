@@ -1,7 +1,15 @@
 import React from 'react';
+// Icons import kore nite hobe (npm install react-icons thakte hobe)
+import { FaUser, FaCode, FaProjectDiagram, FaCertificate, FaEnvelope, FaDownload } from 'react-icons/fa';
 
 const Navbar = () => {
-  // Smooth scroll function
+  // Page refresh/scroll to top function
+  const handleLogoClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    // Jodi puro refresh chao tobe nicher line-ta use koro:
+    // window.location.reload();
+  };
+
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
@@ -11,16 +19,36 @@ const Navbar = () => {
 
   const navLinks = (
     <>
-      <li><button onClick={() => scrollToSection('about')} className="hover:text-blue-500 font-medium">About</button></li>
-      <li><button onClick={() => scrollToSection('skills')} className="hover:text-blue-500 font-medium">Skills</button></li>
-      <li><button onClick={() => scrollToSection('projects')} className="hover:text-blue-500 font-medium">Projects</button></li>
-      <li><button onClick={() => scrollToSection('certificates')} className="hover:text-blue-500 font-medium">Certificates</button></li>
-      <li><button onClick={() => scrollToSection('contact')} className="hover:text-blue-500 font-medium">Contact</button></li>
+      <li>
+        <button onClick={() => scrollToSection('about')} className="flex items-center gap-2 hover:text-blue-500 font-medium transition-colors">
+          <FaUser className="text-blue-600 text-xs" /> About
+        </button>
+      </li>
+      <li>
+        <button onClick={() => scrollToSection('skills')} className="flex items-center gap-2 hover:text-blue-500 font-medium transition-colors">
+          <FaCode className="text-blue-600 text-xs" /> Skills
+        </button>
+      </li>
+      <li>
+        <button onClick={() => scrollToSection('projects')} className="flex items-center gap-2 hover:text-blue-500 font-medium transition-colors">
+          <FaProjectDiagram className="text-blue-600 text-xs" /> Projects
+        </button>
+      </li>
+      <li>
+        <button onClick={() => scrollToSection('certificates')} className="flex items-center gap-2 hover:text-blue-500 font-medium transition-colors">
+          <FaCertificate className="text-blue-600 text-xs" /> Certificates
+        </button>
+      </li>
+      <li>
+        <button onClick={() => scrollToSection('contact')} className="flex items-center gap-2 hover:text-blue-500 font-medium transition-colors">
+          <FaEnvelope className="text-blue-600 text-xs" /> Contact
+        </button>
+      </li>
     </>
   );
 
   return (
-    <div className="navbar bg-base-100/80 backdrop-blur-md fixed top-0 z-50 px-4 md:px-10 shadow-sm">
+    <div className="navbar bg-base-100/80 backdrop-blur-md fixed top-0 z-50 px-4 md:px-10 shadow-sm border-b border-white/5">
       <div className="navbar-start">
         {/* Mobile Dropdown */}
         <div className="dropdown">
@@ -29,30 +57,35 @@ const Navbar = () => {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
             </svg>
           </div>
-          <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+          <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-4 shadow-2xl bg-base-100 rounded-2xl w-56 border border-white/10 space-y-2">
             {navLinks}
           </ul>
         </div>
-        {/* Logo */}
-        <a className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent cursor-pointer">
+        
+        {/* Logo - Click to Refresh/Top */}
+        <button 
+          onClick={handleLogoClick}
+          className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent cursor-pointer hover:opacity-80 transition-opacity"
+        >
           Rahmatul-Rovi
-        </a>
+        </button>
       </div>
 
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 gap-4">
+        <ul className="menu menu-horizontal px-1 gap-2">
           {navLinks}
         </ul>
       </div>
 
       <div className="navbar-end">
-        {/* Resume Button */}
+        {/* Attractive Resume Button */}
         <a 
           href="/resume.pdf" 
           download="My_Resume.pdf"
-          className="btn btn-primary btn-outline rounded-full hover:scale-105 transition-all duration-300"
+          className="relative inline-flex items-center justify-center gap-2 px-6 py-2.5 font-bold text-white transition-all duration-300 bg-blue-600 rounded-full group hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 shadow-lg shadow-blue-500/30 hover:shadow-blue-500/50 active:scale-95"
         >
-          Resume
+          <FaDownload className="text-sm group-hover:animate-bounce" />
+          <span>Resume</span>
         </a>
       </div>
     </div>
