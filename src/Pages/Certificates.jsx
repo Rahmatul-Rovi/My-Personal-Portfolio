@@ -1,4 +1,6 @@
 import React from 'react';
+import Bubt from '../assets/Bubt-certificate.png';
+import Hero from '../assets/Programming-hero-certificate.png';
 
 const Certificates = () => {
     const certificateList = [
@@ -6,17 +8,17 @@ const Certificates = () => {
             id: 1,
             title: "Programming Hero - Web Development",
             organization: "Programming Hero",
-            issueDate: "2024",
-            image: "https://via.placeholder.com/600x400", // Certificate-er chhobi eikhane dibe
-            link: "#" // Certificate link ba image link
+            issueDate: "2025",
+            image: Hero, 
+            link: Hero 
         },
         {
             id: 2,
-            title: "Frontend Development with React",
-            organization: "Coursera / Udemy",
-            issueDate: "2023",
-            image: "https://via.placeholder.com/600x400",
-            link: "#"
+            title: "Intra Intake Programming Contest IIPC BUBT",
+            organization: "Bangladesh University of Business and Technology",
+            issueDate: "2024",
+            image: Bubt,
+            link: Bubt
         }
     ];
 
