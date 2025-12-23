@@ -6,7 +6,7 @@ const MainLayout = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <div className="pt-16"> {/* Navbar er niche space rakhar jonno */}
+            <div className="pt-16"> 
                 <Outlet /> 
             </div>
         </div>

@@ -6,9 +6,9 @@ import Navbar from "./Components/Navbar";
 const MainLayout = () => {
     return (
         <div>
-            <Navbar></Navbar> {/* Eikhane Navbar thakbe */}
+            <Navbar></Navbar> 
             <main>
-                <Outlet /> {/* Eikhane Home page er section gulo ashbe */}
+                <Outlet /> 
             </main>
         </div>
     );

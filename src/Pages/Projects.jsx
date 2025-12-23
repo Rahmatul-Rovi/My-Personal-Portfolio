@@ -8,7 +8,6 @@ import Portfolio from '../assets/portfolio.png';
 import Book from '../assets/book.png';
 
 const Projects = () => {
-    // Tumar project list eikhane add koro
     const projectList = [
         {
             id: 1,

@@ -1,13 +1,10 @@
 import React from 'react';
-// Icons import kore nite hobe (npm install react-icons thakte hobe)
 import { FaUser, FaCode, FaProjectDiagram, FaCertificate, FaEnvelope, FaDownload } from 'react-icons/fa';
 
 const Navbar = () => {
   // Page refresh/scroll to top function
   const handleLogoClick = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-    // Jodi puro refresh chao tobe nicher line-ta use koro:
-    // window.location.reload();
   };
 
   const scrollToSection = (id) => {

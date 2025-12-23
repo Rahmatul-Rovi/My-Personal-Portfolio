@@ -5,11 +5,11 @@ import Home from "../Pages/Home";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <MainLayout />, // Eita hobe main frame
+    element: <MainLayout />, 
     children: [
       {
         path: "/",
-        element: <Home />, // Home page e shob section thakbe
+        element: <Home />, 
       },
     ],
   },

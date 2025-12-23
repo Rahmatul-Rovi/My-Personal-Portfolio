@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt, FaLinkedin, FaGithub, FaFacebook } from 'react-icons/fa';
+import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt, FaLinkedin, FaGithub, FaFacebook, FaInstagram } from 'react-icons/fa';
 import Swal from 'sweetalert2';
 
 const Contact = () => {
@@ -11,27 +11,27 @@ const Contact = () => {
 
         // Account setup korar por eikhane IDs gulo boshabe
         emailjs.sendForm(
-            'YOUR_SERVICE_ID', 
-            'YOUR_TEMPLATE_ID', 
-            form.current, 
+            'YOUR_SERVICE_ID',
+            'YOUR_TEMPLATE_ID',
+            form.current,
             'YOUR_PUBLIC_KEY'
         )
-        .then((result) => {
-            Swal.fire({
-                icon: 'success',
-                title: 'Message Sent!',
-                text: 'Thanks, Rovi will get back to you soon.',
-                background: '#1d232a',
-                color: '#fff'
+            .then((result) => {
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Message Sent!',
+                    text: 'Thanks, Rovi will get back to you soon.',
+                    background: '#1d232a',
+                    color: '#fff'
+                });
+                e.target.reset();
+            }, (error) => {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Something went wrong, please try again.',
+                });
             });
-            e.target.reset();
-        }, (error) => {
-            Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'Something went wrong, please try again.',
-            });
-        });
     };
 
     return (
@@ -79,33 +79,42 @@ const Contact = () => {
                         {/* Social Links Section */}
                         <div className="flex gap-4 pt-4">
                             {/* GitHub */}
-                            <a 
-                                href="https://github.com/Rahmatul-Rovi" 
-                                target="_blank" 
+                            <a
+                                href="https://github.com/Rahmatul-Rovi"
+                                target="_blank"
                                 rel="noreferrer"
                                 className="btn btn-circle btn-outline border-gray-400 hover:bg-black hover:border-black text-gray-400 hover:text-white transition-all duration-300"
                             >
-                                <FaGithub size={22}/>
+                                <FaGithub size={22} />
                             </a>
 
                             {/* LinkedIn */}
-                            <a 
-                                href="https://www.linkedin.com/in/rahmatul-munim-653288398" 
-                                target="_blank" 
+                            <a
+                                href="https://www.linkedin.com/in/rahmatul-munim-653288398"
+                                target="_blank"
                                 rel="noreferrer"
                                 className="btn btn-circle btn-outline border-gray-400 hover:bg-[#0077b5] hover:border-[#0077b5] text-gray-400 hover:text-white transition-all duration-300"
                             >
-                                <FaLinkedin size={22}/>
+                                <FaLinkedin size={22} />
                             </a>
 
                             {/* Facebook */}
-                            <a 
-                                href="https://www.facebook.com/rahmatul.rovi.3" 
-                                target="_blank" 
+                            <a
+                                href="https://www.facebook.com/rahmatul.rovi.3"
+                                target="_blank"
                                 rel="noreferrer"
                                 className="btn btn-circle btn-outline border-gray-400 hover:bg-[#1877F2] hover:border-[#1877F2] text-gray-400 hover:text-white transition-all duration-300"
                             >
-                                <FaFacebook size={22}/>
+                                <FaFacebook size={22} />
+                            </a>
+                            {/* Instagram */}
+                            <a
+                                href="https://www.instagram.com/rovi_the_champ/"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="btn btn-circle btn-outline border-gray-400 hover:bg-gradient-to-tr hover:from-[#f09433] hover:via-[#dc2743] hover:to-[#bc1888] hover:border-none text-gray-400 hover:text-white transition-all duration-300"
+                            >
+                                <FaInstagram size={22} />
                             </a>
                         </div>
                     </div>
