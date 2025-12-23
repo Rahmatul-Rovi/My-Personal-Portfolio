@@ -32,7 +32,7 @@ const Projects = () => {
             title: "My-Personal-Portfolio",
             description: "A high-performance, responsive developer portfolio built with React and Tailwind CSS, featuring smooth animations and a modern dark-themed UI.",
             image: Portfolio,
-            liveLink: "https://github.com/Rahmatul-Rovi/My-Personal-Portfolio",
+            liveLink: "https://my-personal-portfolio-86.netlify.app/",
             githubLink: "https://github.com/Rahmatul-Rovi/My-Personal-Portfolio",
             tags: ["React", "Tailwind"]
         },
