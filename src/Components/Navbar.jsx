@@ -77,7 +77,7 @@ const Navbar = () => {
       <div className="navbar-end">
         {/* Attractive Resume Button */}
         <a 
-          href="/resume.pdf" 
+          href="/Rahmatul Munim resume.pdf" 
           download="My_Resume.pdf"
           className="relative inline-flex items-center justify-center gap-2 px-6 py-2.5 font-bold text-white transition-all duration-300 bg-blue-600 rounded-full group hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 shadow-lg shadow-blue-500/30 hover:shadow-blue-500/50 active:scale-95"
         >
