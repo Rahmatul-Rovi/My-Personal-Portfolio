@@ -6,6 +6,7 @@ import Tax from '../assets/tax.png';
 import Bill from '../assets/billing.png';
 import Portfolio from '../assets/portfolio.png';
 import Book from '../assets/book.png';
+import Hospital from '../assets/hospital.png';
 
 const Projects = () => {
     const projectList = [
@@ -38,11 +39,11 @@ const Projects = () => {
         },
          {
             id: 4,
-            title: "Book-Website",
+            title: "Hospital-Management",
             description: "A digital library platform where users can explore a vast collection of books, featuring interactive search and a clean, reader-friendly interface.",
-            image: Book,
-            liveLink: "https://book-21.netlify.app/",
-            githubLink: "https://github.com/Rahmatul-Rovi/Book-Website",
+            image: Hospital,
+            liveLink: "https://hospital-management-86.netlify.app/",
+            githubLink: "https://github.com/Rahmatul-Rovi/Hospital-Management",
             tags: ["React", "Tailwind"]
         },
         {
