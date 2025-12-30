@@ -19,8 +19,17 @@ const Projects = () => {
             githubLink: "https://github.com/Rahmatul-Rovi/Clothing-App",
             tags: ["React", "Tailwind", "MongoDB", "NodeJS"]
         },
-        {
+         {
             id: 2,
+            title: "Hospital-Management",
+            description: "A modern healthcare platform for easy doctor appointments and medical service management. Features secure user authentication, a responsive dashboard, and real-time scheduling to improve patient-provider interaction.",
+            image: Hospital,
+            liveLink: "https://hospital-management-86.netlify.app/",
+            githubLink: "https://github.com/Rahmatul-Rovi/Hospital-Management",
+            tags: ["React", "Tailwind", "Firebase", "NodeJS"]
+        },
+        {
+            id: 3,
             title: "News-App",
             description: "A real-time news portal that aggregates global headlines with category-based sorting and social sharing.",
             image: News,
@@ -29,7 +38,7 @@ const Projects = () => {
             tags: ["React", "Tailwind", "MongoDB", "NodeJS"]
         },
          {
-            id: 3,
+            id: 4,
             title: "My-Personal-Portfolio",
             description: "A high-performance, responsive developer portfolio built with React and Tailwind CSS, featuring smooth animations and a modern dark-themed UI.",
             image: Portfolio,
@@ -37,15 +46,7 @@ const Projects = () => {
             githubLink: "https://github.com/Rahmatul-Rovi/My-Personal-Portfolio",
             tags: ["React", "Tailwind"]
         },
-         {
-            id: 4,
-            title: "Hospital-Management",
-            description: "A digital library platform where users can explore a vast collection of books, featuring interactive search and a clean, reader-friendly interface.",
-            image: Hospital,
-            liveLink: "https://hospital-management-86.netlify.app/",
-            githubLink: "https://github.com/Rahmatul-Rovi/Hospital-Management",
-            tags: ["React", "Tailwind"]
-        },
+        
         {
             id: 5,
             title: "Billing-System-Management",
