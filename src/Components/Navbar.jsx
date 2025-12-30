@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaUser, FaCode, FaProjectDiagram, FaCertificate, FaEnvelope, FaDownload } from 'react-icons/fa';
+import { FaUser, FaCode, FaProjectDiagram, FaCertificate, FaEnvelope, FaDownload, FaGraduationCap } from 'react-icons/fa';
 
 const Navbar = () => {
   // Page refresh/scroll to top function
@@ -26,7 +26,6 @@ const Navbar = () => {
           <FaCode className="text-blue-600 text-xs" /> Skills
         </button>
       </li>
-      
        <li>
         <button onClick={() => scrollToSection('projects')} className="flex items-center gap-2 hover:text-blue-500 font-medium transition-colors">
           <FaProjectDiagram className="text-blue-600 text-xs" /> Projects
@@ -34,7 +33,7 @@ const Navbar = () => {
       </li>
       <li>
         <button onClick={() => scrollToSection('education')} className="flex items-center gap-2 hover:text-blue-500 font-medium transition-colors">
-          <FaProjectDiagram className="text-blue-600 text-xs" /> Education
+          <FaGraduationCap className="text-blue-600 text-xs" /> Education
         </button>
       </li>
       <li>
@@ -65,7 +64,7 @@ const Navbar = () => {
           </ul>
         </div>
         
-        {/* Logo - Click to Refresh/Top */}
+        {/* Logo - Click to Refresh */}
         <button 
           onClick={handleLogoClick}
           className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent cursor-pointer hover:opacity-80 transition-opacity"

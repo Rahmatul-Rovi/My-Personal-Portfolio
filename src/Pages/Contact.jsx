@@ -9,7 +9,6 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        // Account setup korar por eikhane IDs gulo boshabe
         emailjs.sendForm(
             'YOUR_SERVICE_ID',
             'YOUR_TEMPLATE_ID',
