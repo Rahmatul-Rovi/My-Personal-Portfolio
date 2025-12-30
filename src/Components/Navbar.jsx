@@ -26,9 +26,15 @@ const Navbar = () => {
           <FaCode className="text-blue-600 text-xs" /> Skills
         </button>
       </li>
-      <li>
+      
+       <li>
         <button onClick={() => scrollToSection('projects')} className="flex items-center gap-2 hover:text-blue-500 font-medium transition-colors">
           <FaProjectDiagram className="text-blue-600 text-xs" /> Projects
+        </button>
+      </li>
+      <li>
+        <button onClick={() => scrollToSection('education')} className="flex items-center gap-2 hover:text-blue-500 font-medium transition-colors">
+          <FaProjectDiagram className="text-blue-600 text-xs" /> Education
         </button>
       </li>
       <li>
