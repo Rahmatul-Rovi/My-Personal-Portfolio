@@ -30,8 +30,10 @@ const Education = () => {
         <section id="education" className="py-20 bg-base-100 px-6 overflow-hidden">
             <div className="max-w-6xl mx-auto">
                 <div className="flex items-center justify-center gap-3 mb-16" data-aos="fade-up">
-                    <FaGraduationCap className="text-4xl text-blue-600" />
-                    <h2 className="text-4xl font-bold text-center">Education Journey</h2>
+                   
+                     <h2 className="text-4xl font-bold text-center mb-12" data-aos="fade-up">
+                    My Education <span className="text-blue-600">Journey</span>
+                </h2>
                 </div>
 
                 {/* Main Timeline Container */}
