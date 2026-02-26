@@ -1,6 +1,7 @@
 import React from 'react';
 import Bubt from '../assets/Bubt-certificate.png';
 import Hero from '../assets/Programming-hero-certificate.png';
+import hack from '../assets/Hackthon.png';
 
 const Certificates = () => {
     const certificateList = [
@@ -19,6 +20,14 @@ const Certificates = () => {
             issueDate: "2024",
             image: Bubt,
             link: Bubt
+        },
+          {
+            id: 3,
+            title: "Hacktasyne10-Hour Hackathon",
+            organization: "Bangladesh University of Business and Technology",
+            issueDate: "2025",
+            image: hack,
+            link: hack
         }
     ];
 
