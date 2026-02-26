@@ -4,19 +4,57 @@ const Skills = () => {
   const skillList = [
     { name: "HTML5", icon: "https://cdn.worldvectorlogo.com/logos/html-1.svg" },
     { name: "CSS3", icon: "https://cdn.worldvectorlogo.com/logos/css-3.svg" },
-    { name: "JavaScript", icon: "https://cdn.worldvectorlogo.com/logos/logo-javascript.svg" },
-    { name: "React", icon: "https://cdn.worldvectorlogo.com/logos/react-2.svg" },
-    { name: "Tailwind CSS", icon: "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg" },
-    { name: "Firebase", icon: "https://cdn.worldvectorlogo.com/logos/firebase-1.svg" },
-    { name: "Node.js", icon: "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" },
+    {
+      name: "JavaScript",
+      icon: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+    },
+    {
+      name: "React",
+      icon: "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+    },
+    {
+      name: "Tailwind CSS",
+      icon: "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg",
+    },
+    {
+      name: "Firebase",
+      icon: "https://cdn.worldvectorlogo.com/logos/firebase-1.svg",
+    },
+    {
+      name: "Node.js",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    },
+    {
+      name: "Next.js",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+    },
     { name: "Express.js", icon: "" },
-    { name: "MongoDB", icon: "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" },
+    {
+      name: "MongoDB",
+      icon: "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg",
+    },
+    {
+      name: "PostgreSQL",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+    },
     { name: "C++", icon: "https://cdn.worldvectorlogo.com/logos/c.svg" },
     { name: "Java", icon: "https://cdn.worldvectorlogo.com/logos/java-4.svg" },
-    { name: "Python", icon: "https://cdn.worldvectorlogo.com/logos/python-5.svg" },
-    { name: "Spring Boot", icon: "https://cdn.worldvectorlogo.com/logos/spring-3.svg" },
-    { name: "Postman", icon: "https://cdn.worldvectorlogo.com/logos/postman.svg" },
-    { name: "Git & GitHub", icon: "https://cdn.worldvectorlogo.com/logos/github-icon-1.svg" },
+    {
+      name: "Python",
+      icon: "https://cdn.worldvectorlogo.com/logos/python-5.svg",
+    },
+    {
+      name: "Spring Boot",
+      icon: "https://cdn.worldvectorlogo.com/logos/spring-3.svg",
+    },
+    {
+      name: "Postman",
+      icon: "https://cdn.worldvectorlogo.com/logos/postman.svg",
+    },
+    {
+      name: "Git & GitHub",
+      icon: "https://cdn.worldvectorlogo.com/logos/github-icon-1.svg",
+    },
   ];
 
   return (
@@ -31,8 +69,8 @@ const Skills = () => {
             <div
               key={index}
               data-aos="fade-up"
-              data-aos-delay={index * 30} 
-              data-aos-offset="100" 
+              data-aos-delay={index * 30}
+              data-aos-offset="100"
               className="bg-base-200 p-4 rounded-xl shadow-sm hover:shadow-blue-500/10 hover:-translate-y-1 transition-all duration-300 border border-base-300 group flex flex-col items-center justify-center"
             >
               <div className="w-12 h-12 mb-3 flex items-center justify-center bg-white/5 rounded-lg p-2">
