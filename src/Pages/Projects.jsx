@@ -8,6 +8,7 @@ import Portfolio from '../assets/portfolio.png';
 import Book from '../assets/book.png';
 import Hospital from '../assets/hospital.png';
 import parcel from '../assets/parcel.png';
+import gentle from '../assets/gentle.png';
 
 const Projects = () => {
     const projectList = [
@@ -31,9 +32,9 @@ const Projects = () => {
         },
         {
             id: 3,
-            title: "News-App",
-            description: "A real-time news portal that aggregates global headlines with category-based sorting and social sharing.",
-            image: News,
+            title: "Gentle-Vibe",
+            description: "A premium lifestyle and apparel platform offering a curated selection of contemporary fashion with a minimal aesthetic.",
+            image: gentle,
             liveLink: "https://gentle-vibe.web.app/",
             githubLink: "https://github.com/Rahmatul-Rovi/Gentle-Vibe-Web-App",
             tags: ["React", "Tailwind", "MongoDB", "NodeJS"]
