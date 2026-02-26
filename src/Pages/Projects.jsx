@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FiGithub, FiExternalLink } from 'react-icons/fi';
 import Ecom from '../assets/ecom.png';
 import News from '../assets/news.png';
@@ -11,6 +11,7 @@ import parcel from '../assets/parcel.png';
 import gentle from '../assets/gentle.png';
 
 const Projects = () => {
+    const [showAll, setShowAll] = useState(false);
     const projectList = [
         {
             id: 1,
@@ -86,7 +87,7 @@ const Projects = () => {
             tags: ["React", "Tailwind", "Firebase"]
         },
     ];
-
+const visibleProjects = showAll ? projectList : projectList.slice(0, 6);
     return (
         <section id="projects" className="py-20 bg-base-200 px-6">
             <div className="max-w-6xl mx-auto">
@@ -95,7 +96,7 @@ const Projects = () => {
                 </h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {projectList.map((project) => (
+                    {visibleProjects.map((project) => (
                         <div 
                             key={project.id} 
                             data-aos="zoom-in-up"
@@ -145,6 +146,15 @@ const Projects = () => {
                             </div>
                         </div>
                     ))}
+                </div>
+                {/* ৫. Show More / Show Less বাটন */}
+                <div className="flex justify-center mt-12">
+                    <button 
+                        onClick={() => setShowAll(!showAll)}
+                        className="px-8 py-3 bg-blue-600 text-white font-bold rounded-full hover:bg-blue-700 transition-all duration-300 shadow-lg hover:shadow-blue-500/50 active:scale-95"
+                    >
+                        {showAll ? "Show Less" : "Show More Projects"}
+                    </button>
                 </div>
             </div>
         </section>
