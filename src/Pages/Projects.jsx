@@ -28,7 +28,7 @@ const Projects = () => {
             image: Hospital,
             liveLink: "https://hospital-management-86.netlify.app/",
             githubLink: "https://github.com/Rahmatul-Rovi/Hospital-Management",
-            tags: ["React", "Tailwind", "Firebase", "NodeJS"]
+            tags: ["React", "Tailwind", "Firebase"]
         },
         {
             id: 3,
@@ -74,7 +74,7 @@ const Projects = () => {
             image: Ecom, 
             liveLink: "https://ecommerce-app-86.netlify.app/",
             githubLink: "https://github.com/Rahmatul-Rovi/Clothing-App",
-            tags: ["React", "Tailwind", "MongoDB", "NodeJS"]
+            tags: ["React", "Tailwind","Firebase"]
         },
          {
             id: 8,
@@ -83,7 +83,7 @@ const Projects = () => {
             image: News,
             liveLink: "https://the-dragon-news-app.netlify.app/",
             githubLink: "https://github.com/Rahmatul-Rovi/Dragon-News-App",
-            tags: ["React", "Tailwind", "MongoDB", "NodeJS"]
+            tags: ["React", "Tailwind", "Firebase"]
         },
     ];
 
