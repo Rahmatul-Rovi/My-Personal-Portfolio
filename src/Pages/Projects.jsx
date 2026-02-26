@@ -7,6 +7,7 @@ import Bill from '../assets/billing.png';
 import Portfolio from '../assets/portfolio.png';
 import Book from '../assets/book.png';
 import Hospital from '../assets/hospital.png';
+import parcel from '../assets/parcel.png';
 
 const Projects = () => {
     const projectList = [
@@ -14,10 +15,10 @@ const Projects = () => {
             id: 1,
             title: "E-Commerce-App",
             description: "A modern shopping platform with dynamic product filtering and a secure, seamless checkout experience.",
-            image: Ecom, 
-            liveLink: "https://ecommerce-app-86.netlify.app/",
-            githubLink: "https://github.com/Rahmatul-Rovi/Clothing-App",
-            tags: ["React", "Tailwind", "MongoDB", "NodeJS"]
+            image: parcel, 
+            liveLink: "https://parcel-management-system-792e2.web.app/",
+            githubLink: "https://github.com/Rahmatul-Rovi/Percel-Delivery-Management-Client",
+            tags: ["React", "Tailwind", "NodeJS", "MongoDB"]
         },
          {
             id: 2,
@@ -64,6 +65,24 @@ const Projects = () => {
             liveLink: "https://rahmatul-rovi.github.io/Tax_Management/",
             githubLink: "https://github.com/Rahmatul-Rovi/Tax_Management",
             tags: ["Html", "Tailwind", "JavaScript"]
+        },
+         {
+            id: 7,
+            title: "E-Commerce-App",
+            description: "A modern shopping platform with dynamic product filtering and a secure, seamless checkout experience.",
+            image: Ecom, 
+            liveLink: "https://ecommerce-app-86.netlify.app/",
+            githubLink: "https://github.com/Rahmatul-Rovi/Clothing-App",
+            tags: ["React", "Tailwind", "MongoDB", "NodeJS"]
+        },
+         {
+            id: 8,
+            title: "News-App",
+            description: "A real-time news portal that aggregates global headlines with category-based sorting and social sharing.",
+            image: News,
+            liveLink: "https://the-dragon-news-app.netlify.app/",
+            githubLink: "https://github.com/Rahmatul-Rovi/Dragon-News-App",
+            tags: ["React", "Tailwind", "MongoDB", "NodeJS"]
         },
     ];
 
