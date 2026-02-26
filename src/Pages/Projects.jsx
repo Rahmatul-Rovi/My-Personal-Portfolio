@@ -13,8 +13,8 @@ const Projects = () => {
     const projectList = [
         {
             id: 1,
-            title: "E-Commerce-App",
-            description: "A modern shopping platform with dynamic product filtering and a secure, seamless checkout experience.",
+            title: "Parcel-Management-System",
+            description: "A seamless delivery management system featuring real-time tracking, secure parcel booking, and role-based dashboards for efficient logistics handling.",
             image: parcel, 
             liveLink: "https://parcel-management-system-792e2.web.app/",
             githubLink: "https://github.com/Rahmatul-Rovi/Percel-Delivery-Management-Client",
@@ -34,8 +34,8 @@ const Projects = () => {
             title: "News-App",
             description: "A real-time news portal that aggregates global headlines with category-based sorting and social sharing.",
             image: News,
-            liveLink: "https://the-dragon-news-app.netlify.app/",
-            githubLink: "https://github.com/Rahmatul-Rovi/Dragon-News-App",
+            liveLink: "https://gentle-vibe.web.app/",
+            githubLink: "https://github.com/Rahmatul-Rovi/Gentle-Vibe-Web-App",
             tags: ["React", "Tailwind", "MongoDB", "NodeJS"]
         },
          {
