@@ -9,6 +9,7 @@ import Book from "../assets/book.png";
 import Hospital from "../assets/hospital.png";
 import parcel from "../assets/parcel.png";
 import gentle from "../assets/gentle.png";
+import Loan from "../assets/loan.png";
 
 const Projects = () => {
   const [showAll, setShowAll] = useState(false);
@@ -26,13 +27,13 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "Hospital-Management",
+      title: "Loan-Management-System",
       description:
-        "A modern healthcare platform for easy doctor appointments and medical service management. Features secure user authentication, a responsive dashboard, and real-time scheduling to improve patient-provider interaction.",
-      image: Hospital,
-      liveLink: "https://hospital-management-86.netlify.app/",
-      githubLink: "https://github.com/Rahmatul-Rovi/Hospital-Management",
-      tags: ["React", "Tailwind", "Firebase"],
+        "A specialized financial platform designed to simplify complex loan workflows. Featuring smart automation, real-time status tracking, and a secure user-centric interface to provide an effortless lending experience.",
+      image: Loan,
+      liveLink: "https://loan-project-b8052.web.app/",
+      githubLink: "https://github.com/Rahmatul-Rovi/Loan-Management-System-Client",
+      tags: ["React", "Tailwind", "MongoDB", "NodeJS"],
     },
     {
       id: 3,
@@ -65,8 +66,18 @@ const Projects = () => {
       githubLink: "https://github.com/Rahmatul-Rovi/Billing_System_Management",
       tags: ["Python", "MySQL"],
     },
-    {
+     {
       id: 6,
+      title: "Hospital-Management",
+      description:
+        "A modern healthcare platform for easy doctor appointments and medical service management. Features secure user authentication, a responsive dashboard, and real-time scheduling to improve patient-provider interaction.",
+      image: Hospital,
+      liveLink: "https://hospital-management-86.netlify.app/",
+      githubLink: "https://github.com/Rahmatul-Rovi/Hospital-Management",
+      tags: ["React", "Tailwind", "Firebase"],
+    },
+    {
+      id: 7,
       title: "Tax-Management-System",
       description:
         "A secure web tool for automated tax calculations, financial data tracking, and document management.",
@@ -76,7 +87,7 @@ const Projects = () => {
       tags: ["Html", "Tailwind", "JavaScript"],
     },
     {
-      id: 7,
+      id: 8,
       title: "E-Commerce-App",
       description:
         "A modern shopping platform with dynamic product filtering and a secure, seamless checkout experience.",
@@ -86,7 +97,7 @@ const Projects = () => {
       tags: ["React", "Tailwind", "Firebase"],
     },
     {
-      id: 8,
+      id: 9,
       title: "News-App",
       description:
         "A real-time news portal that aggregates global headlines with category-based sorting and social sharing.",
