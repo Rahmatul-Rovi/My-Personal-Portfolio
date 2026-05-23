@@ -10,20 +10,21 @@ import Hospital from "../assets/hospital.png";
 import parcel from "../assets/parcel.png";
 import gentle from "../assets/gentle.png";
 import Loan from "../assets/loan.png";
+import Restaurant from "../assets/restaurant.png"
 
 const Projects = () => {
   const [showAll, setShowAll] = useState(false);
   const projectList = [
     {
-      id: 1,
-      title: "Parcel-Management-System",
+      id: 1, // তোমার সিরিয়াল অনুযায়ী আইডিটা চেঞ্জ করে নিতে পারো (যেমন: ১, ২ এর পর ৩)
+      title: "TastyTwists-Restaurant-Management-System",
       description:
-        "A seamless delivery management system featuring real-time tracking, secure parcel booking, and role-based dashboards for efficient logistics handling.",
-      image: parcel,
-      liveLink: "https://parcel-management-system-792e2.web.app/",
+        "A comprehensive full-stack restaurant management platform featuring an interactive dynamic menu, a secure cart system, seamless Stripe payment integration, and robust role-based dashboards for users and administrators.",
+      image: Restaurant, // তোমার উপরে যেখানে ইমেজ ইম্পোর্ট করা আছে, সেই অনুযায়ী ভ্যারিয়েবল নামটা ছোট হাতের বা বড় হাতের মিলিয়ে নিও
+      liveLink: "https://restaurant-jade-chi-81.vercel.app/",
       githubLink:
-        "https://github.com/Rahmatul-Rovi/Percel-Delivery-Management-Client",
-      tags: ["React", "Tailwind", "NodeJS", "MongoDB"],
+        "https://github.com/Rahmatul-Rovi/Restaurant-Management-System-Server", // তুমি চাইলে এখানে ক্লায়েন্ট বা সার্ভার যেকোনো একটা বা কম্বাইন লিঙ্ক দিতে পারো
+      tags: ["React", "Tailwind", "NodeJS", "MongoDB", "Firebase", "Stripe"],
     },
     {
       id: 2,
@@ -32,7 +33,8 @@ const Projects = () => {
         "A specialized financial platform designed to simplify complex loan workflows. Featuring smart automation, real-time status tracking, and a secure user-centric interface to provide an effortless lending experience.",
       image: Loan,
       liveLink: "https://loan-project-b8052.web.app/",
-      githubLink: "https://github.com/Rahmatul-Rovi/Loan-Management-System-Client",
+      githubLink:
+        "https://github.com/Rahmatul-Rovi/Loan-Management-System-Client",
       tags: ["React", "Tailwind", "MongoDB", "NodeJS"],
     },
     {
@@ -57,6 +59,18 @@ const Projects = () => {
     },
 
     {
+      id: 1,
+      title: "Parcel-Management-System",
+      description:
+        "A seamless delivery management system featuring real-time tracking, secure parcel booking, and role-based dashboards for efficient logistics handling.",
+      image: parcel,
+      liveLink: "https://parcel-management-system-792e2.web.app/",
+      githubLink:
+        "https://github.com/Rahmatul-Rovi/Percel-Delivery-Management-Client",
+      tags: ["React", "Tailwind", "NodeJS", "MongoDB"],
+    },
+
+    {
       id: 5,
       title: "Billing-System-Management",
       description:
@@ -66,7 +80,7 @@ const Projects = () => {
       githubLink: "https://github.com/Rahmatul-Rovi/Billing_System_Management",
       tags: ["Python", "MySQL"],
     },
-     {
+    {
       id: 6,
       title: "Hospital-Management",
       description:
@@ -176,7 +190,7 @@ const Projects = () => {
             </div>
           ))}
         </div>
-        
+
         <div className="flex justify-center mt-12">
           {/* Show More / Show Less Button Section */}
           <div className="flex justify-center mt-12">
