@@ -80,6 +80,18 @@ const Projects = () => {
       githubLink: "https://github.com/Rahmatul-Rovi/Billing_System_Management",
       tags: ["Python", "MySQL"],
     },
+
+    {
+      id: 3, // তোমার সিকোয়েন্স অনুযায়ী আইডি চেঞ্জ করে নিতে পারো
+      title: "Rise-Seven-Digital-Agency",
+      description:
+        "A modern, highly responsive digital marketing agency landing page built with a focus on pixel-perfect UI design, smooth navigation, and optimized component structure.",
+      image: RiseSeven, // তোমার প্রজেক্টের ইমেজ ভ্যারিয়েবলটি এখানে ইমপোর্ট করে বসিয়ে নিও
+      liveLink: "https://rise-at-seven7.netlify.app/",
+      githubLink: "https://github.com/Rahmatul-Rovi/Rise_Seven",
+      tags: ["React", "Tailwind", "React Router"],
+    },
+    
     {
       id: 6,
       title: "Hospital-Management",
