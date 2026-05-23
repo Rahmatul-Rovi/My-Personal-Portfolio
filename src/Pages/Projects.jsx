@@ -16,15 +16,15 @@ const Projects = () => {
   const [showAll, setShowAll] = useState(false);
   const projectList = [
     {
-      id: 1, // তোমার সিরিয়াল অনুযায়ী আইডিটা চেঞ্জ করে নিতে পারো (যেমন: ১, ২ এর পর ৩)
+      id: 1,
       title: "TastyTwists-Restaurant-Management-System",
       description:
         "A comprehensive full-stack restaurant management platform featuring an interactive dynamic menu, a secure cart system, seamless Stripe payment integration, and robust role-based dashboards for users and administrators.",
-      image: Restaurant, // তোমার উপরে যেখানে ইমেজ ইম্পোর্ট করা আছে, সেই অনুযায়ী ভ্যারিয়েবল নামটা ছোট হাতের বা বড় হাতের মিলিয়ে নিও
+      image: Restaurant,
       liveLink: "https://restaurant-jade-chi-81.vercel.app/",
       githubLink:
-        "https://github.com/Rahmatul-Rovi/Restaurant-Management-System-Server", // তুমি চাইলে এখানে ক্লায়েন্ট বা সার্ভার যেকোনো একটা বা কম্বাইন লিঙ্ক দিতে পারো
-      tags: ["React", "Tailwind", "NodeJS", "MongoDB", "Firebase", "Stripe"],
+        "https://github.com/Rahmatul-Rovi/Restaurant-Management-System-Client",
+      tags: ["React", "Tailwind", "NodeJS", "MongoDB"],
     },
     {
       id: 2,
