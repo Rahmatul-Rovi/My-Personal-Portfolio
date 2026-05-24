@@ -60,7 +60,7 @@ const Projects = () => {
     },
 
     {
-      id: 1,
+      id: 5,
       title: "Parcel-Management-System",
       description:
         "A seamless delivery management system featuring real-time tracking, secure parcel booking, and role-based dashboards for efficient logistics handling.",
@@ -72,7 +72,18 @@ const Projects = () => {
     },
 
     {
-      id: 5,
+      id: 4, // তোমার সিকোয়েন্স অনুযায়ী আইডি নাম্বার সেট করে নিও
+      title: "Car-Doctor-Automotive-Services",
+      description:
+        "A dynamic dynamic automotive service booking web application built with Next.js. Featuring seamless navigation, efficient data fetching, and an optimized user interface for checking services and booking appointments.",
+      image: CarDoctor, // তোমার প্রজেক্টের ইমেজ ভ্যারিয়েবলটি এখানে ইমপোর্ট করে বসিয়ে নিও
+      liveLink: "https://car-doctor-lovat.vercel.app/",
+      githubLink: "https://github.com/Rahmatul-Rovi/Car-Doctor-Next-Js",
+      tags: ["NextJS", "React", "Tailwind"],
+    },
+    
+    {
+      id: 6,
       title: "Billing-System-Management",
       description:
         "Automated invoicing and sales tracking system with real-time inventory management and data precision.",
@@ -83,7 +94,7 @@ const Projects = () => {
     },
 
     {
-      id: 3,
+      id: 7,
       title: "Rise-Seven-Digital-Agency",
       description:
         "A modern, highly responsive digital marketing agency landing page built with a focus on pixel-perfect UI design, smooth navigation, and optimized component structure.",
@@ -94,7 +105,7 @@ const Projects = () => {
     },
 
     {
-      id: 6,
+      id: 8,
       title: "Hospital-Management",
       description:
         "A modern healthcare platform for easy doctor appointments and medical service management. Features secure user authentication, a responsive dashboard, and real-time scheduling to improve patient-provider interaction.",
@@ -104,7 +115,7 @@ const Projects = () => {
       tags: ["React", "Tailwind", "Firebase"],
     },
     {
-      id: 7,
+      id: 9,
       title: "Tax-Management-System",
       description:
         "A secure web tool for automated tax calculations, financial data tracking, and document management.",
@@ -114,7 +125,7 @@ const Projects = () => {
       tags: ["Html", "Tailwind", "JavaScript"],
     },
     {
-      id: 8,
+      id: 10,
       title: "E-Commerce-App",
       description:
         "A modern shopping platform with dynamic product filtering and a secure, seamless checkout experience.",
@@ -124,7 +135,7 @@ const Projects = () => {
       tags: ["React", "Tailwind", "Firebase"],
     },
     {
-      id: 9,
+      id: 11,
       title: "News-App",
       description:
         "A real-time news portal that aggregates global headlines with category-based sorting and social sharing.",
