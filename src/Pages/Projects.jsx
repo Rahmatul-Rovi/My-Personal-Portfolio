@@ -11,7 +11,8 @@ import parcel from "../assets/parcel.png";
 import gentle from "../assets/gentle.png";
 import Loan from "../assets/loan.png";
 import Restaurant from "../assets/restaurant.png";
-import Rise from "../assets/rise.png"
+import Rise from "../assets/rise.png";
+import Car from "../assets/car.png"
 
 const Projects = () => {
   const [showAll, setShowAll] = useState(false);
@@ -72,16 +73,16 @@ const Projects = () => {
     },
 
     {
-      id: 4, // তোমার সিকোয়েন্স অনুযায়ী আইডি নাম্বার সেট করে নিও
+      id: 4, 
       title: "Car-Doctor-Automotive-Services",
       description:
         "A dynamic dynamic automotive service booking web application built with Next.js. Featuring seamless navigation, efficient data fetching, and an optimized user interface for checking services and booking appointments.",
-      image: CarDoctor, // তোমার প্রজেক্টের ইমেজ ভ্যারিয়েবলটি এখানে ইমপোর্ট করে বসিয়ে নিও
+      image: Car,
       liveLink: "https://car-doctor-lovat.vercel.app/",
       githubLink: "https://github.com/Rahmatul-Rovi/Car-Doctor-Next-Js",
       tags: ["NextJS", "React", "Tailwind"],
     },
-    
+
     {
       id: 6,
       title: "Billing-System-Management",
