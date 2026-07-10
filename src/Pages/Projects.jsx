@@ -91,9 +91,9 @@ const Projects = () => {
       description:
         "A practical Full-Stack application focused on seamless API integration, dynamic data fetching, and state management, featuring a clean UI design and responsive layouts.",
       image: api,
-      liveLink: "https://github.com/Rahmatul-Rovi/Billing_System_Management",
-      githubLink: "https://github.com/Rahmatul-Rovi/Billing_System_Management",
-      tags: ["Python", "MySQL"],
+      liveLink: "https://api-practice-frontend-one.vercel.app/",
+      githubLink: "https://github.com/Rahmatul-Rovi/API-Practice-Frontend",
+      tags: ["React", "Tailwind", "API Integration", "PostgreSQL"],
     },
 
     {
