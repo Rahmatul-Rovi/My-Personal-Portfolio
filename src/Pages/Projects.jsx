@@ -12,7 +12,8 @@ import gentle from "../assets/gentle.png";
 import Loan from "../assets/loan.png";
 import Restaurant from "../assets/restaurant.png";
 import Rise from "../assets/rise.png";
-import Car from "../assets/car.png"
+import Car from "../assets/car.png";
+import AI from "../assets/Resume-AI.png"
 
 const Projects = () => {
   const [showAll, setShowAll] = useState(false);
@@ -54,10 +55,10 @@ const Projects = () => {
       title: "ResumeAI",
       description:
         "An AI-powered resume analyzer built with Next.js and Gemini AI. Users can upload their PDF resume, paste a job description, and get an instant match score with detailed suggestions in Bengali.",
-      image: Portfolio,
-      liveLink: "https://my-personal-portfolio-86.netlify.app/",
-      githubLink: "https://github.com/Rahmatul-Rovi/My-Personal-Portfolio",
-      tags: ["React", "Tailwind"],
+      image: AI,
+      liveLink: "https://resume-ai-sigma-seven.vercel.app/",
+      githubLink: "https://github.com/Rahmatul-Rovi/Resume-AI",
+      tags: ["Next.js", "Google AI", "PostgreSQL", "Prisma", "NextAuth"],
     },
 
     {
