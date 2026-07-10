@@ -13,7 +13,8 @@ import Loan from "../assets/loan.png";
 import Restaurant from "../assets/restaurant.png";
 import Rise from "../assets/rise.png";
 import Car from "../assets/car.png";
-import AI from "../assets/Resume-AI.png"
+import AI from "../assets/Resume-AI.png";
+import api from "../assets/API.png"
 
 const Projects = () => {
   const [showAll, setShowAll] = useState(false);
@@ -86,10 +87,10 @@ const Projects = () => {
 
     {
       id: 7,
-      title: "Billing-System-Management",
+      title: "API-Practice",
       description:
-        "Automated invoicing and sales tracking system with real-time inventory management and data precision.",
-      image: Bill,
+        "A practical Full-Stack application focused on seamless API integration, dynamic data fetching, and state management, featuring a clean UI design and responsive layouts.",
+      image: api,
       liveLink: "https://github.com/Rahmatul-Rovi/Billing_System_Management",
       githubLink: "https://github.com/Rahmatul-Rovi/Billing_System_Management",
       tags: ["Python", "MySQL"],
@@ -127,7 +128,7 @@ const Projects = () => {
       tags: ["Html", "Tailwind", "JavaScript"],
     },
      {
-      id: 4,
+      id: 11,
       title: "My-Personal-Portfolio",
       description:
         "A high-performance, responsive developer portfolio built with React and Tailwind CSS, featuring smooth animations and a modern dark-themed UI.",
@@ -137,7 +138,7 @@ const Projects = () => {
       tags: ["React", "Tailwind"],
     },
     {
-      id: 11,
+      id: 12,
       title: "E-Commerce-App",
       description:
         "A modern shopping platform with dynamic product filtering and a secure, seamless checkout experience.",
@@ -146,8 +147,18 @@ const Projects = () => {
       githubLink: "https://github.com/Rahmatul-Rovi/Clothing-App",
       tags: ["React", "Tailwind", "Firebase"],
     },
+     {
+      id: 13,
+      title: "Billing-System-Management",
+      description:
+        "Automated invoicing and sales tracking system with real-time inventory management and data precision.",
+      image: Bill,
+      liveLink: "https://github.com/Rahmatul-Rovi/Billing_System_Management",
+      githubLink: "https://github.com/Rahmatul-Rovi/Billing_System_Management",
+      tags: ["Python", "MySQL"],
+    },
     {
-      id: 12,
+      id: 14,
       title: "News-App",
       description:
         "A real-time news portal that aggregates global headlines with category-based sorting and social sharing.",
