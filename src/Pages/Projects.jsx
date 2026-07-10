@@ -32,6 +32,26 @@ const Projects = () => {
     },
     {
       id: 2,
+      title: "ResumeAI",
+      description:
+        "An AI-powered resume analyzer built with Next.js and Gemini AI. Users can upload their PDF resume, paste a job description, and get an instant match score with detailed suggestions in Bengali.",
+      image: AI,
+      liveLink: "https://resume-ai-sigma-seven.vercel.app/",
+      githubLink: "https://github.com/Rahmatul-Rovi/Resume-AI",
+      tags: ["Next.js", "Google AI", "PostgreSQL", "Prisma", "NextAuth"],
+    },
+    {
+      id: 3,
+      title: "Gentle-Vibe",
+      description:
+        "A full-stack premium e-commerce and lifestyle apparel platform featuring dynamic product filtering, seamless user authentication, a secure shopping cart workflow, and an intuitive checkout system. It bridges a minimal, high-end frontend aesthetic with robust backend database management.",
+      image: gentle,
+      liveLink: "https://gentle-vibe.web.app/",
+      githubLink: "https://github.com/Rahmatul-Rovi/Gentle-Vibe-Web-App",
+      tags: ["React", "Tailwind", "MongoDB", "NodeJS"],
+    },
+     {
+      id: 2,
       title: "Loan-Management-System",
       description:
         "A specialized financial platform designed to simplify complex loan workflows. Featuring smart automation, real-time status tracking, and a secure user-centric interface to provide an effortless lending experience.",
@@ -41,26 +61,7 @@ const Projects = () => {
         "https://github.com/Rahmatul-Rovi/Loan-Management-System-Client",
       tags: ["React", "Tailwind", "MongoDB", "NodeJS"],
     },
-    {
-      id: 3,
-      title: "Gentle-Vibe",
-      description:
-        "A premium lifestyle and apparel platform offering a curated selection of contemporary fashion with a minimal aesthetic.",
-      image: gentle,
-      liveLink: "https://gentle-vibe.web.app/",
-      githubLink: "https://github.com/Rahmatul-Rovi/Gentle-Vibe-Web-App",
-      tags: ["React", "Tailwind", "MongoDB", "NodeJS"],
-    },
-    {
-      id: 4,
-      title: "ResumeAI",
-      description:
-        "An AI-powered resume analyzer built with Next.js and Gemini AI. Users can upload their PDF resume, paste a job description, and get an instant match score with detailed suggestions in Bengali.",
-      image: AI,
-      liveLink: "https://resume-ai-sigma-seven.vercel.app/",
-      githubLink: "https://github.com/Rahmatul-Rovi/Resume-AI",
-      tags: ["Next.js", "Google AI", "PostgreSQL", "Prisma", "NextAuth"],
-    },
+   
 
     {
       id: 5,
