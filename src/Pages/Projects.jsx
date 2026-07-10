@@ -51,9 +51,9 @@ const Projects = () => {
     },
     {
       id: 4,
-      title: "My-Personal-Portfolio",
+      title: "ResumeAI",
       description:
-        "A high-performance, responsive developer portfolio built with React and Tailwind CSS, featuring smooth animations and a modern dark-themed UI.",
+        "An AI-powered resume analyzer built with Next.js and Gemini AI. Users can upload their PDF resume, paste a job description, and get an instant match score with detailed suggestions in Bengali.",
       image: Portfolio,
       liveLink: "https://my-personal-portfolio-86.netlify.app/",
       githubLink: "https://github.com/Rahmatul-Rovi/My-Personal-Portfolio",
@@ -73,7 +73,7 @@ const Projects = () => {
     },
 
     {
-      id: 4, 
+      id: 6, 
       title: "Car-Doctor-Automotive-Services",
       description:
         "A dynamic dynamic automotive service booking web application built with Next.js. Featuring seamless navigation, efficient data fetching, and an optimized user interface for checking services and booking appointments.",
@@ -84,7 +84,7 @@ const Projects = () => {
     },
 
     {
-      id: 6,
+      id: 7,
       title: "Billing-System-Management",
       description:
         "Automated invoicing and sales tracking system with real-time inventory management and data precision.",
@@ -95,7 +95,7 @@ const Projects = () => {
     },
 
     {
-      id: 7,
+      id: 8,
       title: "Rise-Seven-Digital-Agency",
       description:
         "A modern, highly responsive digital marketing agency landing page built with a focus on pixel-perfect UI design, smooth navigation, and optimized component structure.",
@@ -106,7 +106,7 @@ const Projects = () => {
     },
 
     {
-      id: 8,
+      id: 9,
       title: "Hospital-Management",
       description:
         "A modern healthcare platform for easy doctor appointments and medical service management. Features secure user authentication, a responsive dashboard, and real-time scheduling to improve patient-provider interaction.",
@@ -116,7 +116,7 @@ const Projects = () => {
       tags: ["React", "Tailwind", "Firebase"],
     },
     {
-      id: 9,
+      id: 10,
       title: "Tax-Management-System",
       description:
         "A secure web tool for automated tax calculations, financial data tracking, and document management.",
@@ -125,8 +125,18 @@ const Projects = () => {
       githubLink: "https://github.com/Rahmatul-Rovi/Tax_Management",
       tags: ["Html", "Tailwind", "JavaScript"],
     },
+     {
+      id: 4,
+      title: "My-Personal-Portfolio",
+      description:
+        "A high-performance, responsive developer portfolio built with React and Tailwind CSS, featuring smooth animations and a modern dark-themed UI.",
+      image: Portfolio,
+      liveLink: "https://my-personal-portfolio-86.netlify.app/",
+      githubLink: "https://github.com/Rahmatul-Rovi/My-Personal-Portfolio",
+      tags: ["React", "Tailwind"],
+    },
     {
-      id: 10,
+      id: 11,
       title: "E-Commerce-App",
       description:
         "A modern shopping platform with dynamic product filtering and a secure, seamless checkout experience.",
@@ -136,7 +146,7 @@ const Projects = () => {
       tags: ["React", "Tailwind", "Firebase"],
     },
     {
-      id: 11,
+      id: 12,
       title: "News-App",
       description:
         "A real-time news portal that aggregates global headlines with category-based sorting and social sharing.",
