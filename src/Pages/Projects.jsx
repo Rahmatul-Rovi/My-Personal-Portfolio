@@ -14,7 +14,8 @@ import Restaurant from "../assets/restaurant.png";
 import Rise from "../assets/rise.png";
 import Car from "../assets/car.png";
 import AI from "../assets/Resume-AI.png";
-import api from "../assets/API.png"
+import api from "../assets/API.png";
+import BazarDB from "../assets/BazarDB.png"
 
 const Projects = () => {
   const [showAll, setShowAll] = useState(false);
@@ -30,16 +31,18 @@ const Projects = () => {
         "https://github.com/Rahmatul-Rovi/Restaurant-Management-System-Client",
       tags: ["React", "Tailwind", "NodeJS", "MongoDB"],
     },
+
     {
-      id: 2,
-      title: "ResumeAI",
-      description:
-        "An AI-powered resume analyzer built with Next.js and Gemini AI. Users can upload their PDF resume, paste a job description, and get an instant match score with detailed suggestions in Bengali.",
-      image: AI,
-      liveLink: "https://resume-ai-sigma-seven.vercel.app/",
-      githubLink: "https://github.com/Rahmatul-Rovi/Resume-AI",
-      tags: ["Next.js", "Google AI", "PostgreSQL", "Prisma", "NextAuth"],
+  id: 2,
+  title: "BazarDB-E-Commerce-Platform",
+  description:
+    "A full-stack e-commerce application built with Next.js and PostgreSQL via Prisma, featuring advanced search, filters, wishlist management, product reviews, NextAuth authentication, and a role-based admin panel.",
+  image: BazarDB,
+  liveLink: "https://e-commerce-bazar-db.vercel.app/",
+  githubLink: "https://github.com/Rahmatul-Rovi/E-Commerce-BazarDB",
+  tags: ["Next.js", "PostgreSQL", "Prisma", "Tailwind CSS"],
     },
+
     {
       id: 3,
       title: "Gentle-Vibe",
@@ -51,7 +54,7 @@ const Projects = () => {
       tags: ["React", "Tailwind", "MongoDB", "NodeJS"],
     },
      {
-      id: 2,
+      id: 4,
       title: "Loan-Management-System",
       description:
         "A specialized financial platform designed to simplify complex loan workflows. Featuring smart automation, real-time status tracking, and a secure user-centric interface to provide an effortless lending experience.",
@@ -61,7 +64,17 @@ const Projects = () => {
         "https://github.com/Rahmatul-Rovi/Loan-Management-System-Client",
       tags: ["React", "Tailwind", "MongoDB", "NodeJS"],
     },
-   
+    
+    {
+      id: 5,
+      title: "ResumeAI",
+      description:
+        "An AI-powered resume analyzer built with Next.js and Gemini AI. Users can upload their PDF resume, paste a job description, and get an instant match score with detailed suggestions in Bengali.",
+      image: AI,
+      liveLink: "https://resume-ai-sigma-seven.vercel.app/",
+      githubLink: "https://github.com/Rahmatul-Rovi/Resume-AI",
+      tags: ["Next.js", "Google AI", "PostgreSQL", "Prisma", "NextAuth"],
+    },
 
     {
       id: 5,
