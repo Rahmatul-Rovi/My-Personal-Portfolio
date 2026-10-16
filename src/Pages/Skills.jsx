@@ -10,7 +10,7 @@ const Skills = () => {
     },
     {
       name: "React",
-      icon: "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+      icon: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
     },
     {
       name: "Tailwind CSS",
