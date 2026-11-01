@@ -123,3 +123,37 @@ const Skills = () => {
       ],
     },
   ];
+
+   return (
+    <section
+      id="skills"
+      className="relative py-20 px-5 sm:px-8 bg-base-100 overflow-hidden"
+    >
+      {/* Background Decorations */}
+      <div className="absolute top-10 left-0 w-72 h-72 bg-blue-500/5 blur-[120px] rounded-full pointer-events-none" />
+      <div className="absolute bottom-10 right-0 w-72 h-72 bg-purple-500/5 blur-[120px] rounded-full pointer-events-none" />
+
+      <div className="max-w-6xl mx-auto relative z-10">
+
+        {/* Section Heading */}
+        <div
+          className="text-center mb-14"
+          data-aos="fade-up"
+        >
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 text-blue-500 text-sm font-semibold mb-4">
+            <Sparkles size={16} />
+            My Expertise
+          </div>
+
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
+            My Technical{" "}
+            <span className="text-blue-600">Skills</span>
+          </h2>
+
+          <p className="text-base-content/60 max-w-2xl mx-auto text-sm sm:text-base leading-relaxed">
+            Technologies and tools I use to build modern,
+            responsive and scalable web applications.
+          </p>
+
+          <div className="w-20 h-1 bg-blue-600 rounded-full mx-auto mt-6" />
+        </div>
