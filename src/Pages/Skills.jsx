@@ -1,3 +1,4 @@
+
 import React from "react";
 import {
   Code2,
@@ -42,7 +43,6 @@ const Skills = () => {
         },
       ],
     },
-
     {
       title: "Backend Development",
       subtitle: "Building powerful server-side applications",
@@ -69,8 +69,7 @@ const Skills = () => {
         },
       ],
     },
-
-      {
+    {
       title: "Database",
       subtitle: "Managing and organizing data efficiently",
       icon: Database,
@@ -92,7 +91,7 @@ const Skills = () => {
         },
       ],
     },
-     {
+    {
       title: "Others & Tools",
       subtitle: "Development tools and programming languages",
       icon: Wrench,
@@ -124,7 +123,7 @@ const Skills = () => {
     },
   ];
 
-   return (
+  return (
     <section
       id="skills"
       className="relative py-20 px-5 sm:px-8 bg-base-100 overflow-hidden"
@@ -158,7 +157,7 @@ const Skills = () => {
           <div className="w-20 h-1 bg-blue-600 rounded-full mx-auto mt-6" />
         </div>
 
-         {/* Skill Categories */}
+        {/* Skill Categories */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
           {skillCategories.map((category, index) => {
@@ -192,7 +191,7 @@ const Skills = () => {
 
                 </div>
 
-   {/* Skills Grid */}
+                {/* Skills Grid */}
                 <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
 
                   {category.skills.map((skill) => (
@@ -218,7 +217,8 @@ const Skills = () => {
                   ))}
 
                 </div>
-                 {/* Bottom Decoration */}
+
+                {/* Bottom Decoration */}
                 <div className="absolute bottom-0 left-8 right-8 h-[2px] bg-gradient-to-r from-transparent via-blue-500/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
               </div>
@@ -236,5 +236,13 @@ const Skills = () => {
             <span className="text-blue-500 font-semibold">
               Always Learning
             </span>{" "}
-            — Exploring new technologies and improving my skills.
+            & Exploring new technologies and improving my skills.
           </p>
+        </div>
+
+      </div>
+    </section>
+  );
+};
+
+export default Skills;
