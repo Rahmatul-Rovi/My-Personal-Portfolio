@@ -157,3 +157,38 @@ const Skills = () => {
 
           <div className="w-20 h-1 bg-blue-600 rounded-full mx-auto mt-6" />
         </div>
+
+         {/* Skill Categories */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+          {skillCategories.map((category, index) => {
+            const CategoryIcon = category.icon;
+
+            return (
+              <div
+                key={category.title}
+                data-aos="fade-up"
+                data-aos-delay={index * 100}
+                className="group relative bg-base-200/70 border border-base-300 rounded-2xl p-6 sm:p-7 shadow-sm hover:shadow-xl hover:shadow-blue-500/5 hover:border-blue-500/40 transition-all duration-300 hover:-translate-y-1"
+              >
+                {/* Category Header */}
+                <div className="flex items-center gap-4 mb-7">
+
+                  <div
+                    className={`w-12 h-12 rounded-xl ${category.bg} ${category.color} flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}
+                  >
+                    <CategoryIcon size={25} />
+                  </div>
+
+                  <div>
+                    <h3 className="text-lg sm:text-xl font-bold">
+                      {category.title}
+                    </h3>
+
+                    <p className="text-xs sm:text-sm text-base-content/50 mt-1">
+                      {category.subtitle}
+                    </p>
+                  </div>
+
+                </div>
+
