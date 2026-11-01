@@ -42,3 +42,30 @@ const Skills = () => {
         },
       ],
     },
+
+    {
+      title: "Backend Development",
+      subtitle: "Building powerful server-side applications",
+      icon: Server,
+      color: "text-emerald-500",
+      bg: "bg-emerald-500/10",
+      skills: [
+        {
+          name: "Node.js",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+        },
+        {
+          name: "Express.js",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+          dark: true,
+        },
+        {
+          name: "Java",
+          icon: "https://cdn.worldvectorlogo.com/logos/java-4.svg",
+        },
+        {
+          name: "Spring Boot",
+          icon: "https://cdn.worldvectorlogo.com/logos/spring-3.svg",
+        },
+      ],
+    },
