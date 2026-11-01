@@ -92,3 +92,34 @@ const Skills = () => {
         },
       ],
     },
+     {
+      title: "Others & Tools",
+      subtitle: "Development tools and programming languages",
+      icon: Wrench,
+      color: "text-orange-500",
+      bg: "bg-orange-500/10",
+      skills: [
+        {
+          name: "Firebase",
+          icon: "https://cdn.worldvectorlogo.com/logos/firebase-1.svg",
+        },
+        {
+          name: "C++",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
+        },
+        {
+          name: "Python",
+          icon: "https://cdn.worldvectorlogo.com/logos/python-5.svg",
+        },
+        {
+          name: "Postman",
+          icon: "https://cdn.worldvectorlogo.com/logos/postman.svg",
+        },
+        {
+          name: "Git & GitHub",
+          icon: "https://cdn.worldvectorlogo.com/logos/github-icon-1.svg",
+          dark: true,
+        },
+      ],
+    },
+  ];
