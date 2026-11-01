@@ -69,3 +69,26 @@ const Skills = () => {
         },
       ],
     },
+
+      {
+      title: "Database",
+      subtitle: "Managing and organizing data efficiently",
+      icon: Database,
+      color: "text-purple-500",
+      bg: "bg-purple-500/10",
+      skills: [
+        {
+          name: "MongoDB",
+          icon: "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg",
+        },
+        {
+          name: "PostgreSQL",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+        },
+        {
+          name: "Prisma ORM",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg",
+          dark: true,
+        },
+      ],
+    },
