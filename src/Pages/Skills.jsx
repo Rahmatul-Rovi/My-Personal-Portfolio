@@ -192,3 +192,29 @@ const Skills = () => {
 
                 </div>
 
+   {/* Skills Grid */}
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+
+                  {category.skills.map((skill) => (
+                    <div
+                      key={skill.name}
+                      className="flex items-center gap-2.5 p-3 rounded-xl bg-base-100 border border-base-300 hover:border-blue-500/40 hover:bg-blue-500/5 transition-all duration-300 hover:scale-[1.03] group/skill"
+                    >
+                      <div className="w-9 h-9 shrink-0 flex items-center justify-center rounded-lg bg-base-200 p-1.5">
+                        <img
+                          src={skill.icon}
+                          alt={skill.name}
+                          loading="lazy"
+                          className={`w-full h-full object-contain group-hover/skill:scale-110 transition-transform duration-300 ${
+                            skill.dark ? "dark:invert" : ""
+                          }`}
+                        />
+                      </div>
+
+                      <span className="text-xs sm:text-sm font-semibold text-base-content/80 group-hover/skill:text-blue-500 transition-colors">
+                        {skill.name}
+                      </span>
+                    </div>
+                  ))}
+
+                </div>
