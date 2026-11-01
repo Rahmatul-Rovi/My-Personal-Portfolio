@@ -218,3 +218,23 @@ const Skills = () => {
                   ))}
 
                 </div>
+                 {/* Bottom Decoration */}
+                <div className="absolute bottom-0 left-8 right-8 h-[2px] bg-gradient-to-r from-transparent via-blue-500/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+
+              </div>
+            );
+          })}
+
+        </div>
+
+        {/* Bottom Text */}
+        <div
+          className="text-center mt-12"
+          data-aos="fade-up"
+        >
+          <p className="text-sm text-base-content/50">
+            <span className="text-blue-500 font-semibold">
+              Always Learning
+            </span>{" "}
+            — Exploring new technologies and improving my skills.
+          </p>
