@@ -89,4 +89,13 @@ const projectsData = [
       "Checkout workflow",
       "Responsive interface",
     ],
+       overview:
+      "A premium lifestyle apparel shopping platform combining a modern frontend with backend database management.",
+    challenges: [
+      "Managing product data and filtering.",
+      "Building a seamless shopping cart workflow.",
+      "Connecting frontend functionality with backend APIs.",
+    ],
+  },
+    
 ]
