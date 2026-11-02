@@ -117,4 +117,13 @@ const projectsData = [
       "Admin management",
       "Payment integration",
     ],
+
+     overview:
+      "A loan management application that helps users apply for loans and track application and repayment status.",
+    challenges: [
+      "Managing loan application statuses.",
+      "Implementing approval and disbursement workflows.",
+      "Handling repayment-related operations.",
+    ],
+  },
 ]
