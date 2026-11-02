@@ -43,4 +43,31 @@ const projectsData = [
       "Handling cart and order management.",
     ],
   },
+
+   {
+    id: "bazardb",
+    title: "BazarDB - E-Commerce Platform",
+    description:
+      "A full-stack e-commerce application built with Next.js and PostgreSQL via Prisma, featuring advanced search, filters, wishlist management, product reviews, and a role-based admin panel.",
+    image: BazarDB,
+    liveLink: "https://e-commerce-bazar-db.vercel.app/",
+    githubLink: "https://github.com/Rahmatul-Rovi/E-Commerce-BazarDB",
+    tags: ["Next.js", "PostgreSQL", "Prisma", "Tailwind CSS"],
+    category: "Full Stack",
+    features: [
+      "Advanced product search",
+      "Product filtering",
+      "Wishlist management",
+      "Product reviews",
+      "NextAuth authentication",
+      "Role-based admin panel",
+    ],
+    overview:
+      "A modern e-commerce platform built with Next.js, PostgreSQL and Prisma ORM to provide a complete online shopping experience.",
+    challenges: [
+      "Managing relational data using PostgreSQL and Prisma.",
+      "Implementing authentication and role-based access.",
+      "Building product search and filtering functionality.",
+    ],
+  },
 ]
