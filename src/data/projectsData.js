@@ -98,4 +98,23 @@ const projectsData = [
     ],
   },
     
+   {
+    id: "loan-management",
+    title: "Loan Management System",
+    description:
+      "A financial platform designed to simplify loan workflows with automated processing, status tracking, and user-focused interfaces.",
+    image: Loan,
+    liveLink: "https://loan-project-b8052.web.app/",
+    githubLink:
+      "https://github.com/Rahmatul-Rovi/Loan-Management-System-Client",
+    tags: ["React", "Tailwind CSS", "MongoDB", "Node.js"],
+    category: "Full Stack",
+    features: [
+      "Loan application system",
+      "Loan approval management",
+      "Repayment tracking",
+      "User dashboard",
+      "Admin management",
+      "Payment integration",
+    ],
 ]
