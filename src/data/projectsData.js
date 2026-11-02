@@ -70,4 +70,23 @@ const projectsData = [
       "Building product search and filtering functionality.",
     ],
   },
+
+   {
+    id: "gentle-vibe",
+    title: "Gentle Vibe - E-Commerce Platform",
+    description:
+      "A premium e-commerce and lifestyle apparel platform featuring dynamic product filtering, user authentication, shopping cart, and checkout.",
+    image: gentle,
+    liveLink: "https://gentle-vibe.web.app/",
+    githubLink: "https://github.com/Rahmatul-Rovi/Gentle-Vibe-Web-App",
+    tags: ["React", "Tailwind CSS", "MongoDB", "Node.js"],
+    category: "Full Stack",
+    features: [
+      "Dynamic product filtering",
+      "User authentication",
+      "Shopping cart management",
+      "Product management",
+      "Checkout workflow",
+      "Responsive interface",
+    ],
 ]
