@@ -219,4 +219,10 @@ const projectsData = [
     githubLink: "https://github.com/Rahmatul-Rovi/API-Practice-Frontend",
     tags: ["React", "Tailwind CSS", "API Integration", "PostgreSQL"],
     category: "Full Stack",
+      features: [
+      "API integration",
+      "Dynamic data fetching",
+      "State management",
+      "Responsive layouts",
+    ],
 ]
