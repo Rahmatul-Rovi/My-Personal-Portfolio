@@ -126,4 +126,23 @@ const projectsData = [
       "Handling repayment-related operations.",
     ],
   },
+
+    {
+    id: "resume-ai",
+    title: "ResumeAI - AI Resume Analyzer",
+    description:
+      "An AI-powered resume analyzer built with Next.js and Gemini AI. Users can upload PDF resumes, paste job descriptions, and receive match scores with suggestions in Bengali.",
+    image: AI,
+    liveLink: "https://resume-ai-sigma-seven.vercel.app/",
+    githubLink: "https://github.com/Rahmatul-Rovi/Resume-AI",
+    tags: ["Next.js", "Google AI", "PostgreSQL", "Prisma", "NextAuth"],
+    category: "AI Application",
+    features: [
+      "PDF resume upload",
+      "Job description analysis",
+      "AI-powered resume evaluation",
+      "Resume match score",
+      "Improvement suggestions",
+      "Bengali feedback",
+    ],
 ]
