@@ -199,4 +199,13 @@ const projectsData = [
       "Responsive UI",
       "Next.js navigation",
     ],
+
+     overview:
+      "A web application designed to make automotive service browsing and appointment booking easier.",
+    challenges: [
+      "Building responsive service pages.",
+      "Managing navigation and data fetching.",
+      "Creating an intuitive booking interface.",
+    ],
+  },
 ]
