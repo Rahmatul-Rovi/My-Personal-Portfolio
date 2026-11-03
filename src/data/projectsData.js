@@ -225,4 +225,12 @@ const projectsData = [
       "State management",
       "Responsive layouts",
     ],
+      overview:
+      "A practical development project focused on connecting frontend applications with APIs.",
+    challenges: [
+      "Handling API responses.",
+      "Managing dynamic application data.",
+      "Building reusable frontend components.",
+    ],
+  },
 ]
