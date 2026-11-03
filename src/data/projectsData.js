@@ -208,4 +208,15 @@ const projectsData = [
       "Creating an intuitive booking interface.",
     ],
   },
+
+   {
+    id: "api-practice",
+    title: "API Practice",
+    description:
+      "A practical application focused on API integration, dynamic data fetching, and state management.",
+    image: api,
+    liveLink: "https://api-practice-frontend-one.vercel.app/",
+    githubLink: "https://github.com/Rahmatul-Rovi/API-Practice-Frontend",
+    tags: ["React", "Tailwind CSS", "API Integration", "PostgreSQL"],
+    category: "Full Stack",
 ]
