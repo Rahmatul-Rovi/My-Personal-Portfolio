@@ -145,4 +145,12 @@ const projectsData = [
       "Improvement suggestions",
       "Bengali feedback",
     ],
+    overview:
+      "An AI-powered application that analyzes resumes against job descriptions and provides useful feedback.",
+    challenges: [
+      "Integrating Gemini AI into the application.",
+      "Processing uploaded PDF resumes.",
+      "Generating relevant resume analysis and suggestions.",
+    ],
+  },
 ]
