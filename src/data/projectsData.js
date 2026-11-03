@@ -153,4 +153,24 @@ const projectsData = [
       "Generating relevant resume analysis and suggestions.",
     ],
   },
+
+  {
+    id: "parcel-management",
+    title: "Parcel Management System",
+    description:
+      "A delivery management system featuring parcel booking, real-time tracking, and role-based dashboards.",
+    image: parcel,
+    liveLink: "https://parcel-management-system-792e2.web.app/",
+    githubLink:
+      "https://github.com/Rahmatul-Rovi/Percel-Delivery-Management-Client",
+    tags: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
+    category: "Full Stack",
+    features: [
+      "Parcel booking",
+      "Parcel tracking",
+      "Delivery management",
+      "Role-based dashboards",
+      "User authentication",
+      "Responsive interface",
+    ],
 ]
