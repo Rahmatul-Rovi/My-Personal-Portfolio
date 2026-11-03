@@ -181,4 +181,22 @@ const projectsData = [
       "Organizing parcel tracking information.",
     ],
   },
+
+   {
+    id: "car-doctor",
+    title: "Car Doctor - Automotive Services",
+    description:
+      "A Next.js automotive service booking application with service browsing and appointment booking functionality.",
+    image: Car,
+    liveLink: "https://car-doctor-lovat.vercel.app/",
+    githubLink: "https://github.com/Rahmatul-Rovi/Car-Doctor-Next-Js",
+    tags: ["Next.js", "React", "Tailwind CSS"],
+    category: "Frontend",
+    features: [
+      "Automotive service browsing",
+      "Service details",
+      "Appointment booking",
+      "Responsive UI",
+      "Next.js navigation",
+    ],
 ]
