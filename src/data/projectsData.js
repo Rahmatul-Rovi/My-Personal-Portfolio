@@ -173,4 +173,12 @@ const projectsData = [
       "User authentication",
       "Responsive interface",
     ],
+    overview:
+      "A delivery management platform for handling parcel booking and delivery operations.",
+    challenges: [
+      "Managing parcel delivery status.",
+      "Implementing role-based functionality.",
+      "Organizing parcel tracking information.",
+    ],
+  },
 ]
