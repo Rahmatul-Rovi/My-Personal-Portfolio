@@ -277,4 +277,12 @@ const projectsData = [
       "Dashboard",
       "Responsive design",
     ],
+     overview:
+      "A healthcare management platform designed to improve interaction between patients and healthcare services.",
+    challenges: [
+      "Managing authentication.",
+      "Building appointment-related interfaces.",
+      "Creating a responsive healthcare platform.",
+    ],
+  },
 ]
