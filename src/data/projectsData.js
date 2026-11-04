@@ -259,4 +259,15 @@ const projectsData = [
       "Building a clean landing page layout.",
     ],
   },
+
+   {
+    id: "hospital-management",
+    title: "Hospital Management",
+    description:
+      "A healthcare platform for doctor appointments and medical service management with authentication and dashboards.",
+    image: Hospital,
+    liveLink: "https://hospital-management-86.netlify.app/",
+    githubLink: "https://github.com/Rahmatul-Rovi/Hospital-Management",
+    tags: ["React", "Tailwind CSS", "Firebase"],
+    category: "Full Stack",
 ]
