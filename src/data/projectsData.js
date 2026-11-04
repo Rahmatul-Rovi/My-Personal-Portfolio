@@ -244,4 +244,11 @@ const projectsData = [
     githubLink: "https://github.com/Rahmatul-Rovi/Rise_Seven",
     tags: ["React", "Tailwind CSS", "Responsive UI"],
     category: "Frontend",
+     features: [
+      "Modern landing page",
+      "Responsive design",
+      "Smooth navigation",
+      "Reusable components",
+      "Modern UI design",
+    ],
 ]
