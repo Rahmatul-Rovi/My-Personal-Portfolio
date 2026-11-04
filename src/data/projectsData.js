@@ -285,4 +285,21 @@ const projectsData = [
       "Creating a responsive healthcare platform.",
     ],
   },
+
+   {
+    id: "tax-management",
+    title: "Tax Management System",
+    description:
+      "A web application for tax calculations, financial data tracking, and document management.",
+    image: Tax,
+    liveLink: "https://rahmatul-rovi.github.io/Tax_Management/",
+    githubLink: "https://github.com/Rahmatul-Rovi/Tax_Management",
+    tags: ["HTML", "Tailwind CSS", "JavaScript"],
+    category: "Frontend",
+    features: [
+      "Tax calculation interface",
+      "Financial data tracking",
+      "Document management",
+      "Responsive design",
+    ],
 ]
