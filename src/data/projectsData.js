@@ -302,4 +302,13 @@ const projectsData = [
       "Document management",
       "Responsive design",
     ],
+
+     overview:
+      "A web-based tax management tool designed to simplify tax-related calculations and information management.",
+    challenges: [
+      "Implementing calculation logic.",
+      "Managing user input.",
+      "Designing a clean interface.",
+    ],
+  },
 ]
