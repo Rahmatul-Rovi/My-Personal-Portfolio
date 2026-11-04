@@ -233,4 +233,15 @@ const projectsData = [
       "Building reusable frontend components.",
     ],
   },
+
+   {
+    id: "rise-seven",
+    title: "Rise Seven - Digital Agency",
+    description:
+      "A modern and responsive digital marketing agency landing page with smooth navigation and optimized UI components.",
+    image: Rise,
+    liveLink: "https://rise-at-seven7.netlify.app/",
+    githubLink: "https://github.com/Rahmatul-Rovi/Rise_Seven",
+    tags: ["React", "Tailwind CSS", "Responsive UI"],
+    category: "Frontend",
 ]
