@@ -270,4 +270,11 @@ const projectsData = [
     githubLink: "https://github.com/Rahmatul-Rovi/Hospital-Management",
     tags: ["React", "Tailwind CSS", "Firebase"],
     category: "Full Stack",
+     features: [
+      "Doctor appointment interface",
+      "User authentication",
+      "Healthcare services",
+      "Dashboard",
+      "Responsive design",
+    ],
 ]
