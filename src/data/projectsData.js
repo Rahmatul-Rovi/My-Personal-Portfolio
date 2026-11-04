@@ -251,4 +251,12 @@ const projectsData = [
       "Reusable components",
       "Modern UI design",
     ],
+      overview:
+      "A digital agency landing page focused on professional design and responsive user experience.",
+    challenges: [
+      "Maintaining consistent UI across devices.",
+      "Creating reusable components.",
+      "Building a clean landing page layout.",
+    ],
+  },
 ]
