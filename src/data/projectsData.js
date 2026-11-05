@@ -348,4 +348,12 @@ const projectsData = [
     githubLink: "https://github.com/Rahmatul-Rovi/Clothing-App",
     tags: ["React", "Tailwind CSS", "Firebase"],
     category: "Full Stack",
+
+     features: [
+      "Product browsing",
+      "Product filtering",
+      "User authentication",
+      "Shopping interface",
+      "Responsive design",
+    ],
 ]
