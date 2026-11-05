@@ -384,4 +384,13 @@ const projectsData = [
       "Inventory management",
       "MySQL database",
     ],
+
+      overview:
+      "A billing and inventory management project focused on organizing invoices and sales information.",
+    challenges: [
+      "Managing billing records.",
+      "Connecting application data with MySQL.",
+      "Organizing sales and inventory information.",
+    ],
+  },
 ]
