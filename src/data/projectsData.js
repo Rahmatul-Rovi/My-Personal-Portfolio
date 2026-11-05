@@ -337,4 +337,15 @@ const projectsData = [
       "Presenting projects professionally.",
     ],
   },
+
+    {
+    id: "ecommerce-app",
+    title: "E-Commerce App",
+    description:
+      "A shopping platform featuring dynamic product filtering and a secure shopping experience.",
+    image: Ecom,
+    liveLink: "https://ecommerce-app-86.netlify.app/",
+    githubLink: "https://github.com/Rahmatul-Rovi/Clothing-App",
+    tags: ["React", "Tailwind CSS", "Firebase"],
+    category: "Full Stack",
 ]
