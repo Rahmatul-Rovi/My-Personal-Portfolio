@@ -311,4 +311,15 @@ const projectsData = [
       "Designing a clean interface.",
     ],
   },
+
+   {
+    id: "personal-portfolio",
+    title: "My Personal Portfolio",
+    description:
+      "A responsive developer portfolio built with React and Tailwind CSS, featuring animations and a modern UI.",
+    image: Portfolio,
+    liveLink: "https://my-personal-portfolio-86.netlify.app/",
+    githubLink: "https://github.com/Rahmatul-Rovi/My-Personal-Portfolio",
+    tags: ["React", "Tailwind CSS"],
+    category: "Frontend",
 ]
