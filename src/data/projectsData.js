@@ -365,4 +365,15 @@ const projectsData = [
       "Building a responsive shopping interface.",
     ],
   },
+
+   {
+    id: "billing-system",
+    title: "Billing System Management",
+    description:
+      "An automated invoicing and sales tracking system with inventory management.",
+    image: Bill,
+    liveLink: "https://github.com/Rahmatul-Rovi/Billing_System_Management",
+    githubLink: "https://github.com/Rahmatul-Rovi/Billing_System_Management",
+    tags: ["Python", "MySQL"],
+    category: "Desktop / Software",
 ]
