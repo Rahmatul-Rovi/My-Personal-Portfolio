@@ -329,4 +329,12 @@ const projectsData = [
       "Responsive layout",
       "Smooth animations",
     ],
+     overview:
+      "A personal portfolio website to present development skills, projects and professional information.",
+    challenges: [
+      "Building a responsive portfolio.",
+      "Creating reusable components.",
+      "Presenting projects professionally.",
+    ],
+  },
 ]
