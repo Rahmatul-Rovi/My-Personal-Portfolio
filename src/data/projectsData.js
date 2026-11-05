@@ -356,4 +356,13 @@ const projectsData = [
       "Shopping interface",
       "Responsive design",
     ],
+
+     overview:
+      "An online shopping application built to provide a convenient product browsing and shopping experience.",
+    challenges: [
+      "Managing product information.",
+      "Implementing authentication.",
+      "Building a responsive shopping interface.",
+    ],
+  },
 ]
