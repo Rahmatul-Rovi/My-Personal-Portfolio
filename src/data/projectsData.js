@@ -322,4 +322,11 @@ const projectsData = [
     githubLink: "https://github.com/Rahmatul-Rovi/My-Personal-Portfolio",
     tags: ["React", "Tailwind CSS"],
     category: "Frontend",
+    features: [
+      "About section",
+      "Technical skills showcase",
+      "Project showcase",
+      "Responsive layout",
+      "Smooth animations",
+    ],
 ]
