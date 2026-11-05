@@ -376,4 +376,12 @@ const projectsData = [
     githubLink: "https://github.com/Rahmatul-Rovi/Billing_System_Management",
     tags: ["Python", "MySQL"],
     category: "Desktop / Software",
+
+    features: [
+      "Automated billing",
+      "Invoice management",
+      "Sales tracking",
+      "Inventory management",
+      "MySQL database",
+    ],
 ]
