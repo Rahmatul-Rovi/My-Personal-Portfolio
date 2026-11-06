@@ -1,3 +1,4 @@
+
 import Ecom from "../assets/ecom.png";
 import News from "../assets/news.png";
 import Tax from "../assets/tax.png";
@@ -16,7 +17,7 @@ import api from "../assets/API.png";
 import BazarDB from "../assets/BazarDB.png";
 
 const projectsData = [
-      {
+  {
     id: "tastytwists",
     title: "TastyTwists - Restaurant Management System",
     description:
@@ -43,8 +44,7 @@ const projectsData = [
       "Handling cart and order management.",
     ],
   },
-
-   {
+  {
     id: "bazardb",
     title: "BazarDB - E-Commerce Platform",
     description:
@@ -70,8 +70,7 @@ const projectsData = [
       "Building product search and filtering functionality.",
     ],
   },
-
-   {
+  {
     id: "gentle-vibe",
     title: "Gentle Vibe - E-Commerce Platform",
     description:
@@ -89,7 +88,7 @@ const projectsData = [
       "Checkout workflow",
       "Responsive interface",
     ],
-       overview:
+    overview:
       "A premium lifestyle apparel shopping platform combining a modern frontend with backend database management.",
     challenges: [
       "Managing product data and filtering.",
@@ -97,8 +96,7 @@ const projectsData = [
       "Connecting frontend functionality with backend APIs.",
     ],
   },
-    
-   {
+  {
     id: "loan-management",
     title: "Loan Management System",
     description:
@@ -117,8 +115,7 @@ const projectsData = [
       "Admin management",
       "Payment integration",
     ],
-
-     overview:
+    overview:
       "A loan management application that helps users apply for loans and track application and repayment status.",
     challenges: [
       "Managing loan application statuses.",
@@ -126,8 +123,7 @@ const projectsData = [
       "Handling repayment-related operations.",
     ],
   },
-
-    {
+  {
     id: "resume-ai",
     title: "ResumeAI - AI Resume Analyzer",
     description:
@@ -153,7 +149,6 @@ const projectsData = [
       "Generating relevant resume analysis and suggestions.",
     ],
   },
-
   {
     id: "parcel-management",
     title: "Parcel Management System",
@@ -181,8 +176,7 @@ const projectsData = [
       "Organizing parcel tracking information.",
     ],
   },
-
-   {
+  {
     id: "car-doctor",
     title: "Car Doctor - Automotive Services",
     description:
@@ -199,8 +193,7 @@ const projectsData = [
       "Responsive UI",
       "Next.js navigation",
     ],
-
-     overview:
+    overview:
       "A web application designed to make automotive service browsing and appointment booking easier.",
     challenges: [
       "Building responsive service pages.",
@@ -208,8 +201,7 @@ const projectsData = [
       "Creating an intuitive booking interface.",
     ],
   },
-
-   {
+  {
     id: "api-practice",
     title: "API Practice",
     description:
@@ -219,13 +211,13 @@ const projectsData = [
     githubLink: "https://github.com/Rahmatul-Rovi/API-Practice-Frontend",
     tags: ["React", "Tailwind CSS", "API Integration", "PostgreSQL"],
     category: "Full Stack",
-      features: [
+    features: [
       "API integration",
       "Dynamic data fetching",
       "State management",
       "Responsive layouts",
     ],
-      overview:
+    overview:
       "A practical development project focused on connecting frontend applications with APIs.",
     challenges: [
       "Handling API responses.",
@@ -233,8 +225,7 @@ const projectsData = [
       "Building reusable frontend components.",
     ],
   },
-
-   {
+  {
     id: "rise-seven",
     title: "Rise Seven - Digital Agency",
     description:
@@ -244,14 +235,14 @@ const projectsData = [
     githubLink: "https://github.com/Rahmatul-Rovi/Rise_Seven",
     tags: ["React", "Tailwind CSS", "Responsive UI"],
     category: "Frontend",
-     features: [
+    features: [
       "Modern landing page",
       "Responsive design",
       "Smooth navigation",
       "Reusable components",
       "Modern UI design",
     ],
-      overview:
+    overview:
       "A digital agency landing page focused on professional design and responsive user experience.",
     challenges: [
       "Maintaining consistent UI across devices.",
@@ -259,8 +250,7 @@ const projectsData = [
       "Building a clean landing page layout.",
     ],
   },
-
-   {
+  {
     id: "hospital-management",
     title: "Hospital Management",
     description:
@@ -270,14 +260,14 @@ const projectsData = [
     githubLink: "https://github.com/Rahmatul-Rovi/Hospital-Management",
     tags: ["React", "Tailwind CSS", "Firebase"],
     category: "Full Stack",
-     features: [
+    features: [
       "Doctor appointment interface",
       "User authentication",
       "Healthcare services",
       "Dashboard",
       "Responsive design",
     ],
-     overview:
+    overview:
       "A healthcare management platform designed to improve interaction between patients and healthcare services.",
     challenges: [
       "Managing authentication.",
@@ -285,8 +275,7 @@ const projectsData = [
       "Creating a responsive healthcare platform.",
     ],
   },
-
-   {
+  {
     id: "tax-management",
     title: "Tax Management System",
     description:
@@ -302,8 +291,7 @@ const projectsData = [
       "Document management",
       "Responsive design",
     ],
-
-     overview:
+    overview:
       "A web-based tax management tool designed to simplify tax-related calculations and information management.",
     challenges: [
       "Implementing calculation logic.",
@@ -311,8 +299,7 @@ const projectsData = [
       "Designing a clean interface.",
     ],
   },
-
-   {
+  {
     id: "personal-portfolio",
     title: "My Personal Portfolio",
     description:
@@ -329,7 +316,7 @@ const projectsData = [
       "Responsive layout",
       "Smooth animations",
     ],
-     overview:
+    overview:
       "A personal portfolio website to present development skills, projects and professional information.",
     challenges: [
       "Building a responsive portfolio.",
@@ -337,8 +324,7 @@ const projectsData = [
       "Presenting projects professionally.",
     ],
   },
-
-    {
+  {
     id: "ecommerce-app",
     title: "E-Commerce App",
     description:
@@ -348,16 +334,14 @@ const projectsData = [
     githubLink: "https://github.com/Rahmatul-Rovi/Clothing-App",
     tags: ["React", "Tailwind CSS", "Firebase"],
     category: "Full Stack",
-
-     features: [
+    features: [
       "Product browsing",
       "Product filtering",
       "User authentication",
       "Shopping interface",
       "Responsive design",
     ],
-
-     overview:
+    overview:
       "An online shopping application built to provide a convenient product browsing and shopping experience.",
     challenges: [
       "Managing product information.",
@@ -365,8 +349,7 @@ const projectsData = [
       "Building a responsive shopping interface.",
     ],
   },
-
-   {
+  {
     id: "billing-system",
     title: "Billing System Management",
     description:
@@ -376,7 +359,6 @@ const projectsData = [
     githubLink: "https://github.com/Rahmatul-Rovi/Billing_System_Management",
     tags: ["Python", "MySQL"],
     category: "Desktop / Software",
-
     features: [
       "Automated billing",
       "Invoice management",
@@ -384,8 +366,7 @@ const projectsData = [
       "Inventory management",
       "MySQL database",
     ],
-
-      overview:
+    overview:
       "A billing and inventory management project focused on organizing invoices and sales information.",
     challenges: [
       "Managing billing records.",
@@ -393,8 +374,7 @@ const projectsData = [
       "Organizing sales and inventory information.",
     ],
   },
-
-    {
+  {
     id: "news-app",
     title: "News App",
     description:
@@ -404,12 +384,21 @@ const projectsData = [
     githubLink: "https://github.com/Rahmatul-Rovi/Dragon-News-App",
     tags: ["React", "Tailwind CSS", "Firebase"],
     category: "Frontend",
-
-      features: [
+    features: [
       "News browsing",
       "Category-based news",
       "User authentication",
       "Social sharing",
       "Responsive interface",
     ],
-]
+    overview:
+      "A news application designed to help users browse news content through an organized interface.",
+    challenges: [
+      "Organizing news categories.",
+      "Managing authentication.",
+      "Building a responsive news interface.",
+    ],
+  },
+];
+
+export default projectsData;
