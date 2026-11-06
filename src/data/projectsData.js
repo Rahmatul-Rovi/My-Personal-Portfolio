@@ -393,4 +393,15 @@ const projectsData = [
       "Organizing sales and inventory information.",
     ],
   },
+
+    {
+    id: "news-app",
+    title: "News App",
+    description:
+      "A news portal that aggregates headlines with category-based sorting and social sharing.",
+    image: News,
+    liveLink: "https://the-dragon-news-app.netlify.app/",
+    githubLink: "https://github.com/Rahmatul-Rovi/Dragon-News-App",
+    tags: ["React", "Tailwind CSS", "Firebase"],
+    category: "Frontend",
 ]
