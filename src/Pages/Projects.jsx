@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import {
@@ -18,7 +19,7 @@ const Projects = () => {
     ? projectsData
     : projectsData.slice(0, 6);
 
-      return (
+  return (
     <section
       id="projects"
       className="relative py-20 px-5 sm:px-8 bg-base-200 overflow-hidden"
@@ -53,7 +54,8 @@ const Projects = () => {
           <div className="w-20 h-1 bg-blue-600 rounded-full mx-auto mt-6" />
         </div>
 
-         <div className="flex items-center justify-between mb-7">
+        {/* Project Count */}
+        <div className="flex items-center justify-between mb-7">
           <div className="flex items-center gap-2">
             <FiFolder className="text-blue-500" size={20} />
             <h3 className="font-bold text-lg">
@@ -106,7 +108,7 @@ const Projects = () => {
                 </div>
               </Link>
 
-                {/* Project Content */}
+              {/* Project Content */}
               <div className="p-6 flex flex-col flex-1">
 
                 {/* Tags */}
@@ -178,3 +180,28 @@ const Projects = () => {
           ))}
 
         </div>
+
+        {/* Show More Button */}
+        {projectsData.length > 6 && (
+          <div className="flex justify-center mt-14">
+            <button
+              onClick={() => setShowAll(!showAll)}
+              className="group flex items-center gap-3 px-9 py-4 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-bold shadow-lg shadow-blue-500/20 hover:shadow-blue-500/40 hover:-translate-y-1 active:scale-95 transition-all duration-300"
+            >
+              {showAll ? "Show Less" : "Show More Projects"}
+
+              <FiArrowRight
+                className={`transition-transform duration-300 ${
+                  showAll ? "-rotate-90" : "rotate-90 group-hover:translate-x-1"
+                }`}
+              />
+            </button>
+          </div>
+        )}
+
+      </div>
+    </section>
+  );
+};
+
+export default Projects;
