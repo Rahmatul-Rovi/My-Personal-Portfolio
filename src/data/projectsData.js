@@ -404,4 +404,12 @@ const projectsData = [
     githubLink: "https://github.com/Rahmatul-Rovi/Dragon-News-App",
     tags: ["React", "Tailwind CSS", "Firebase"],
     category: "Frontend",
+
+      features: [
+      "News browsing",
+      "Category-based news",
+      "User authentication",
+      "Social sharing",
+      "Responsive interface",
+    ],
 ]
