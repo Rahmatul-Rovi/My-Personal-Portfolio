@@ -54,3 +54,23 @@ const ProjectDetails = () => {
     <section className="min-h-screen bg-base-200 px-5 sm:px-8 py-12">
 
       <div className="max-w-6xl mx-auto">
+
+   {/* Back Button */}
+        <button
+          onClick={() => navigate(-1)}
+          className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-base-100 border border-base-300 font-semibold text-sm hover:bg-blue-600 hover:text-white hover:border-blue-600 transition-all duration-300 mb-8"
+        >
+          <FiArrowLeft />
+          Back to Projects
+        </button>
+
+        {/* Project Header */}
+        <div className="text-center mb-10" data-aos="fade-up">
+
+          <span className="inline-block px-4 py-2 rounded-full bg-blue-500/10 text-blue-500 font-semibold text-sm mb-5">
+            {project.category}
+          </span>
+
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-5">
+            {project.title}
+          </h1>
