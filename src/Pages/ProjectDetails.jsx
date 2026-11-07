@@ -37,3 +37,20 @@ const ProjectDetails = () => {
           <p className="text-base-content/60 mb-7">
             Sorry, the project you are looking for does not exist.
           </p>
+
+            <Link
+            to="/"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-xl font-bold"
+          >
+            <FiArrowLeft />
+            Back to Home
+          </Link>
+        </div>
+      </section>
+    );
+  }
+
+  return (
+    <section className="min-h-screen bg-base-200 px-5 sm:px-8 py-12">
+
+      <div className="max-w-6xl mx-auto">
