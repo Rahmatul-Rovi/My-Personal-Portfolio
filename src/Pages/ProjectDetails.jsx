@@ -99,4 +99,27 @@ const ProjectDetails = () => {
         <div
           className="flex flex-col sm:flex-row justify-center gap-4 mb-14"
           data-aos="fade-up"
-        ></div>
+        >
+             <a
+            href={project.liveLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-bold shadow-lg shadow-blue-500/20 hover:-translate-y-1 hover:shadow-xl transition-all duration-300"
+          >
+            <FiExternalLink size={19} />
+            View Live Project
+            <FiArrowUpRight />
+          </a>
+
+          <a
+            href={project.githubLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl border-2 border-base-content/20 font-bold hover:bg-base-content hover:text-base-100 transition-all duration-300"
+          >
+            <FiGithub size={20} />
+            View Source Code
+          </a>
+
+        </div>
+        </div>
