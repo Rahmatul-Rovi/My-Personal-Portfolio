@@ -74,3 +74,29 @@ const ProjectDetails = () => {
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-5">
             {project.title}
           </h1>
+
+            <p className="max-w-3xl mx-auto text-base-content/60 leading-relaxed">
+            {project.description}
+          </p>
+
+        </div>
+
+        {/* Main Project Image */}
+        <div
+          className="relative overflow-hidden rounded-2xl border border-base-300 shadow-2xl mb-10 group"
+          data-aos="zoom-in"
+        >
+          <img
+            src={project.image}
+            alt={project.title}
+            className="w-full max-h-[550px] object-cover group-hover:scale-[1.02] transition-transform duration-700"
+          />
+
+          <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent pointer-events-none" />
+        </div>
+
+        {/* Action Buttons */}
+        <div
+          className="flex flex-col sm:flex-row justify-center gap-4 mb-14"
+          data-aos="fade-up"
+        ></div>
