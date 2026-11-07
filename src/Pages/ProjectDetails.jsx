@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Link, useParams, useNavigate } from "react-router-dom";
 
@@ -22,7 +23,8 @@ const ProjectDetails = () => {
     (item) => item.id === id
   );
 
-   if (!project) {
+  // Project Not Found
+  if (!project) {
     return (
       <section className="min-h-screen flex items-center justify-center bg-base-200 px-5">
         <div className="text-center">
@@ -38,7 +40,7 @@ const ProjectDetails = () => {
             Sorry, the project you are looking for does not exist.
           </p>
 
-            <Link
+          <Link
             to="/"
             className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-xl font-bold"
           >
@@ -55,7 +57,7 @@ const ProjectDetails = () => {
 
       <div className="max-w-6xl mx-auto">
 
-   {/* Back Button */}
+        {/* Back Button */}
         <button
           onClick={() => navigate(-1)}
           className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-base-100 border border-base-300 font-semibold text-sm hover:bg-blue-600 hover:text-white hover:border-blue-600 transition-all duration-300 mb-8"
@@ -75,7 +77,7 @@ const ProjectDetails = () => {
             {project.title}
           </h1>
 
-            <p className="max-w-3xl mx-auto text-base-content/60 leading-relaxed">
+          <p className="max-w-3xl mx-auto text-base-content/60 leading-relaxed">
             {project.description}
           </p>
 
@@ -100,7 +102,8 @@ const ProjectDetails = () => {
           className="flex flex-col sm:flex-row justify-center gap-4 mb-14"
           data-aos="fade-up"
         >
-             <a
+
+          <a
             href={project.liveLink}
             target="_blank"
             rel="noopener noreferrer"
@@ -123,7 +126,7 @@ const ProjectDetails = () => {
 
         </div>
 
-           {/* Main Details Grid */}
+        {/* Main Details Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-7">
 
           {/* Left Side */}
@@ -149,7 +152,7 @@ const ProjectDetails = () => {
               </p>
             </div>
 
-  {/* Features */}
+            {/* Features */}
             <div
               className="bg-base-100 border border-base-300 rounded-2xl p-6 sm:p-8 shadow-sm"
               data-aos="fade-up"
@@ -165,7 +168,8 @@ const ProjectDetails = () => {
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-   {project.features.map((feature, index) => (
+
+                {project.features.map((feature, index) => (
                   <div
                     key={index}
                     className="flex items-start gap-3 p-4 rounded-xl bg-base-200/70 border border-base-300 hover:border-emerald-500/40 transition-colors"
@@ -184,7 +188,7 @@ const ProjectDetails = () => {
               </div>
             </div>
 
-{/* Challenges */}
+            {/* Challenges */}
             <div
               className="bg-base-100 border border-base-300 rounded-2xl p-6 sm:p-8 shadow-sm"
               data-aos="fade-up"
@@ -210,7 +214,7 @@ const ProjectDetails = () => {
                       {index + 1}
                     </span>
 
-                     <p className="text-sm leading-7 text-base-content/70">
+                    <p className="text-sm leading-7 text-base-content/70">
                       {challenge}
                     </p>
                   </div>
@@ -274,7 +278,7 @@ const ProjectDetails = () => {
                   <FiArrowUpRight />
                 </a>
 
-                 <a
+                <a
                   href={project.githubLink}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -305,4 +309,10 @@ const ProjectDetails = () => {
             Explore More Projects
           </Link>
         </div>
-        </div>
+
+      </div>
+    </section>
+  );
+};
+
+export default ProjectDetails;
