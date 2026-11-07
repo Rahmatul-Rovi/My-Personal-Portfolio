@@ -165,5 +165,23 @@ const ProjectDetails = () => {
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+   {project.features.map((feature, index) => (
+                  <div
+                    key={index}
+                    className="flex items-start gap-3 p-4 rounded-xl bg-base-200/70 border border-base-300 hover:border-emerald-500/40 transition-colors"
+                  >
+                    <FiCheckCircle
+                      className="text-emerald-500 mt-0.5 shrink-0"
+                      size={19}
+                    />
+
+                    <span className="text-sm font-medium">
+                      {feature}
+                    </span>
+                  </div>
+                ))}
+
+              </div>
+            </div>
 
         </div>
