@@ -238,4 +238,39 @@ const ProjectDetails = () => {
                   Technologies Used
                 </h2>
               </div>
+
+              <div className="flex flex-wrap gap-3">
+
+                {project.tags.map((tag) => (
+                  <span
+                    key={tag}
+                    className="px-4 py-2.5 rounded-xl bg-blue-500/10 text-blue-500 border border-blue-500/20 font-semibold text-sm hover:bg-blue-600 hover:text-white transition-all duration-300"
+                  >
+                    {tag}
+                  </span>
+                ))}
+
+              </div>
+
+              <div className="divider my-6" />
+
+              <h3 className="font-bold mb-4">
+                Project Links
+              </h3>
+
+              <div className="space-y-3">
+
+                <a
+                  href={project.liveLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-between p-4 rounded-xl bg-blue-600 text-white hover:bg-blue-700 transition-colors"
+                >
+                  <span className="flex items-center gap-2 font-semibold text-sm">
+                    <FiExternalLink />
+                    Live Website
+                  </span>
+
+                  <FiArrowUpRight />
+                </a>
         </div>
