@@ -184,4 +184,29 @@ const ProjectDetails = () => {
               </div>
             </div>
 
+{/* Challenges */}
+            <div
+              className="bg-base-100 border border-base-300 rounded-2xl p-6 sm:p-8 shadow-sm"
+              data-aos="fade-up"
+            >
+              <div className="flex items-center gap-3 mb-6">
+                <div className="w-11 h-11 rounded-xl bg-orange-500/10 text-orange-500 flex items-center justify-center">
+                  <FiTarget size={22} />
+                </div>
+
+                <h2 className="text-2xl font-bold">
+                  Challenges & Solutions
+                </h2>
+              </div>
+
+              <div className="space-y-4">
+
+                {project.challenges.map((challenge, index) => (
+                  <div
+                    key={index}
+                    className="flex gap-4 p-4 rounded-xl bg-base-200/70"
+                  >
+                    <span className="w-8 h-8 shrink-0 rounded-lg bg-orange-500/10 text-orange-500 flex items-center justify-center font-bold">
+                      {index + 1}
+                    </span>
         </div>
