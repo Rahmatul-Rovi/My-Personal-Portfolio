@@ -273,4 +273,36 @@ const ProjectDetails = () => {
 
                   <FiArrowUpRight />
                 </a>
+
+                 <a
+                  href={project.githubLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-between p-4 rounded-xl border border-base-300 hover:bg-base-200 transition-colors"
+                >
+                  <span className="flex items-center gap-2 font-semibold text-sm">
+                    <FiGithub />
+                    GitHub Repository
+                  </span>
+
+                  <FiArrowUpRight />
+                </a>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        {/* Back to Projects */}
+        <div className="text-center mt-14">
+          <Link
+            to="/#projects"
+            className="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-base-100 border border-base-300 font-bold hover:border-blue-500 hover:text-blue-500 transition-all duration-300"
+          >
+            <FiArrowLeft />
+            Explore More Projects
+          </Link>
+        </div>
         </div>
