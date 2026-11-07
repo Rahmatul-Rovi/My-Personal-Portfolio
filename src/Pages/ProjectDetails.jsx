@@ -149,4 +149,21 @@ const ProjectDetails = () => {
               </p>
             </div>
 
+  {/* Features */}
+            <div
+              className="bg-base-100 border border-base-300 rounded-2xl p-6 sm:p-8 shadow-sm"
+              data-aos="fade-up"
+            >
+              <div className="flex items-center gap-3 mb-6">
+                <div className="w-11 h-11 rounded-xl bg-emerald-500/10 text-emerald-500 flex items-center justify-center">
+                  <FiCheckCircle size={22} />
+                </div>
+
+                <h2 className="text-2xl font-bold">
+                  Key Features
+                </h2>
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+
         </div>
