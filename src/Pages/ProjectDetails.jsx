@@ -122,4 +122,31 @@ const ProjectDetails = () => {
           </a>
 
         </div>
+
+           {/* Main Details Grid */}
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-7">
+
+          {/* Left Side */}
+          <div className="lg:col-span-2 space-y-7">
+
+            {/* Overview */}
+            <div
+              className="bg-base-100 border border-base-300 rounded-2xl p-6 sm:p-8 shadow-sm"
+              data-aos="fade-up"
+            >
+              <div className="flex items-center gap-3 mb-5">
+                <div className="w-11 h-11 rounded-xl bg-blue-500/10 text-blue-500 flex items-center justify-center">
+                  <FiLayers size={22} />
+                </div>
+
+                <h2 className="text-2xl font-bold">
+                  Project Overview
+                </h2>
+              </div>
+
+              <p className="text-base-content/70 leading-8">
+                {project.overview}
+              </p>
+            </div>
+
         </div>
