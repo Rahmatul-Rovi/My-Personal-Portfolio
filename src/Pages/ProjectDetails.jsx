@@ -209,4 +209,33 @@ const ProjectDetails = () => {
                     <span className="w-8 h-8 shrink-0 rounded-lg bg-orange-500/10 text-orange-500 flex items-center justify-center font-bold">
                       {index + 1}
                     </span>
+
+                     <p className="text-sm leading-7 text-base-content/70">
+                      {challenge}
+                    </p>
+                  </div>
+                ))}
+
+              </div>
+            </div>
+
+          </div>
+
+          {/* Right Side - Tech Stack */}
+          <div className="space-y-7">
+
+            <div
+              className="bg-base-100 border border-base-300 rounded-2xl p-6 shadow-sm lg:sticky lg:top-24"
+              data-aos="fade-up"
+            >
+
+              <div className="flex items-center gap-3 mb-6">
+                <div className="w-11 h-11 rounded-xl bg-purple-500/10 text-purple-500 flex items-center justify-center">
+                  <FiCode size={22} />
+                </div>
+
+                <h2 className="text-xl font-bold">
+                  Technologies Used
+                </h2>
+              </div>
         </div>
