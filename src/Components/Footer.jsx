@@ -69,3 +69,20 @@ const Footer = () => {
               </span>
               <span className="text-blue-600">.</span>
             </a>
+
+ <p className="mt-5 max-w-xs text-sm leading-7 opacity-65">
+              Passionate MERN Stack Developer focused on creating modern,
+              responsive, and user-friendly web applications.
+            </p>
+
+            <div className="mt-6 inline-flex items-center gap-2 rounded-full border border-blue-500/20 bg-blue-500/10 px-4 py-2 text-xs font-semibold text-blue-600">
+              <span className="h-2 w-2 animate-pulse rounded-full bg-green-500"></span>
+              Available for Opportunities
+            </div>
+          </div>
+
+          {/* Navigation */}
+          <div>
+            <h3 className="mb-4 text-lg font-bold">
+              Quick Navigation
+            </h3>
