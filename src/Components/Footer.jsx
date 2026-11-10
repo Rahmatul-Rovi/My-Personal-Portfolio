@@ -16,7 +16,8 @@ import {
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-    const navLinks = [
+
+  const navLinks = [
     { name: "About", id: "about", icon: <FaUser /> },
     { name: "Skills", id: "skills", icon: <FaCode /> },
     { name: "Projects", id: "projects", icon: <FaProjectDiagram /> },
@@ -70,7 +71,7 @@ const Footer = () => {
               <span className="text-blue-600">.</span>
             </a>
 
- <p className="mt-5 max-w-xs text-sm leading-7 opacity-65">
+            <p className="mt-5 max-w-xs text-sm leading-7 opacity-65">
               Passionate MERN Stack Developer focused on creating modern,
               responsive, and user-friendly web applications.
             </p>
@@ -87,7 +88,7 @@ const Footer = () => {
               Quick Navigation
             </h3>
 
-             <div className="mb-6 h-1 w-12 rounded-full bg-gradient-to-r from-blue-500 to-purple-500"></div>
+            <div className="mb-6 h-1 w-12 rounded-full bg-gradient-to-r from-blue-500 to-purple-500"></div>
 
             <ul className="space-y-4">
               {navLinks.map((item) => (
@@ -112,7 +113,7 @@ const Footer = () => {
               Connect With Me
             </h3>
 
-              <div className="mb-6 h-1 w-12 rounded-full bg-gradient-to-r from-blue-500 to-purple-500"></div>
+            <div className="mb-6 h-1 w-12 rounded-full bg-gradient-to-r from-blue-500 to-purple-500"></div>
 
             <p className="mb-6 text-sm leading-7 opacity-65">
               Let's connect and discuss new ideas, projects, and
@@ -142,7 +143,7 @@ const Footer = () => {
               Let's Work Together
             </h3>
 
-             <div className="mb-6 h-1 w-12 rounded-full bg-gradient-to-r from-blue-500 to-purple-500"></div>
+            <div className="mb-6 h-1 w-12 rounded-full bg-gradient-to-r from-blue-500 to-purple-500"></div>
 
             <p className="mb-6 text-sm leading-7 opacity-65">
               Interested in working together? Explore my resume or
@@ -190,3 +191,13 @@ const Footer = () => {
               Back to Top
               <FaArrowUp className="transition-transform duration-300 group-hover:-translate-y-1" />
             </a>
+
+          </div>
+        </div>
+
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
