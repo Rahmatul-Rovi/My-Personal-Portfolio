@@ -160,3 +160,33 @@ const Footer = () => {
           </div>
 
         </div>
+
+        {/* Bottom Footer */}
+        <div className="border-t border-base-content/10 py-7">
+
+          <div className="flex flex-col items-center justify-between gap-5 text-center md:flex-row">
+
+            <p className="text-sm opacity-60">
+              © {currentYear}{" "}
+              <span className="font-semibold opacity-100">
+                Rahmatul Rovi
+              </span>
+              . All Rights Reserved.
+            </p>
+
+            <p className="flex items-center gap-2 text-sm opacity-70">
+              Designed & Built with
+              <FaHeart className="animate-pulse text-red-500" />
+              by
+              <span className="font-semibold text-blue-600">
+                Rahmatul Rovi
+              </span>
+            </p>
+
+            <a
+              href="/#home"
+              className="group flex items-center gap-2 rounded-xl border border-base-content/10 bg-base-100 px-4 py-2 text-sm font-semibold transition-all duration-300 hover:border-blue-500 hover:bg-blue-600 hover:text-white"
+            >
+              Back to Top
+              <FaArrowUp className="transition-transform duration-300 group-hover:-translate-y-1" />
+            </a>
