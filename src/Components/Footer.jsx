@@ -24,3 +24,21 @@ const Footer = () => {
     { name: "Certificates", id: "certificates", icon: <FaCertificate /> },
     { name: "Contact", id: "contact", icon: <FaEnvelope /> },
   ];
+
+  const socialLinks = [
+    {
+      icon: <FaGithub />,
+      url: "https://github.com/Rahmatul-Rovi",
+      name: "GitHub",
+    },
+    {
+      icon: <FaLinkedin />,
+      url: "https://www.linkedin.com/",
+      name: "LinkedIn",
+    },
+    {
+      icon: <FaFacebook />,
+      url: "https://www.facebook.com/",
+      name: "Facebook",
+    },
+  ];
