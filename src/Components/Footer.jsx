@@ -141,3 +141,22 @@ const Footer = () => {
             <h3 className="mb-4 text-lg font-bold">
               Let's Work Together
             </h3>
+
+             <div className="mb-6 h-1 w-12 rounded-full bg-gradient-to-r from-blue-500 to-purple-500"></div>
+
+            <p className="mb-6 text-sm leading-7 opacity-65">
+              Interested in working together? Explore my resume or
+              feel free to contact me for new opportunities.
+            </p>
+
+            <a
+              href="/RAHMATUL_RESUME_FULLSTACK.pdf"
+              download="Rahmatul_Rovi_Resume.pdf"
+              className="inline-flex items-center gap-3 rounded-xl bg-gradient-to-r from-blue-600 to-purple-600 px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-blue-500/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-purple-500/30"
+            >
+              <FaDownload />
+              Download Resume
+            </a>
+          </div>
+
+        </div>
