@@ -111,3 +111,33 @@ const Footer = () => {
             <h3 className="mb-4 text-lg font-bold">
               Connect With Me
             </h3>
+
+              <div className="mb-6 h-1 w-12 rounded-full bg-gradient-to-r from-blue-500 to-purple-500"></div>
+
+            <p className="mb-6 text-sm leading-7 opacity-65">
+              Let's connect and discuss new ideas, projects, and
+              opportunities.
+            </p>
+
+            <div className="flex gap-3">
+              {socialLinks.map((social) => (
+                <a
+                  key={social.name}
+                  href={social.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={social.name}
+                  title={social.name}
+                  className="flex h-11 w-11 items-center justify-center rounded-xl border border-base-content/10 bg-base-100 text-lg text-base-content shadow-sm transition-all duration-300 hover:-translate-y-2 hover:border-blue-500 hover:bg-blue-600 hover:text-white hover:shadow-lg hover:shadow-blue-500/20"
+                >
+                  {social.icon}
+                </a>
+              ))}
+            </div>
+          </div>
+
+          {/* Resume */}
+          <div>
+            <h3 className="mb-4 text-lg font-bold">
+              Let's Work Together
+            </h3>
