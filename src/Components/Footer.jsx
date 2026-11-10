@@ -86,3 +86,28 @@ const Footer = () => {
             <h3 className="mb-4 text-lg font-bold">
               Quick Navigation
             </h3>
+
+             <div className="mb-6 h-1 w-12 rounded-full bg-gradient-to-r from-blue-500 to-purple-500"></div>
+
+            <ul className="space-y-4">
+              {navLinks.map((item) => (
+                <li key={item.id}>
+                  <a
+                    href={`/#${item.id}`}
+                    className="group flex w-fit items-center gap-3 text-sm opacity-70 transition-all duration-300 hover:translate-x-2 hover:text-blue-600 hover:opacity-100"
+                  >
+                    <span className="text-blue-600 transition-colors group-hover:text-purple-600">
+                      {item.icon}
+                    </span>
+                    {item.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Social Links */}
+          <div>
+            <h3 className="mb-4 text-lg font-bold">
+              Connect With Me
+            </h3>
