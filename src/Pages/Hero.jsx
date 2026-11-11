@@ -110,5 +110,34 @@ const Hero = () => {
                                 />
                             </span>
 
+  </p>
+
+                    </div>
+
+
+                    {/* Action Buttons */}
+                    <div className="flex flex-wrap gap-5 justify-center lg:justify-start pt-9">
+
+                        {/* Hire Me */}
+                        <button
+                            onClick={() => scrollToSection('contact')}
+                            className="group flex items-center gap-3 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 px-8 py-4 font-bold text-white shadow-lg shadow-blue-500/25 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-blue-500/40 active:scale-95"
+                        >
+                            Hire Me
+
+                            <FiSend className="text-lg transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
+                        </button>
+
+
+                        {/* View Work */}
+                        <button
+                            onClick={() => scrollToSection('projects')}
+                            className="group flex items-center gap-3 rounded-xl border border-base-content/15 bg-base-200 px-8 py-4 font-bold text-base-content shadow-md transition-all duration-300 hover:-translate-y-1 hover:border-blue-500 hover:bg-blue-500 hover:text-white hover:shadow-lg hover:shadow-blue-500/20 active:scale-95"
+                        >
+                            View Work
+
+                            <FiPlay className="text-lg text-blue-600 transition-all duration-300 group-hover:scale-125 group-hover:text-white" />
+                        </button>
+
                 </div>
                 </div>
