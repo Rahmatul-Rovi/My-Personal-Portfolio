@@ -73,5 +73,23 @@ const Hero = () => {
                             Rahmatul Rovi
                         </span>
                     </h1>
+ {/* Typewriter Animation - Unchanged */}
+                    <div className="py-6 h-24 md:h-20">
+                        <span className="text-xl md:text-3xl font-bold text-base-content/60">
+                            <Typewriter
+                                words={[
+                                    'Full Stack Web Developer',
+                                    'MERN Stack Developer'
+                                ]}
+                                loop={0}
+                                cursor
+                                cursorStyle="|"
+                                typeSpeed={70}
+                                deleteSpeed={50}
+                                delaySpeed={1500}
+                            />
+                        </span>
+                    </div>
+
                 </div>
                 </div>
