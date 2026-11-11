@@ -28,5 +28,19 @@ const Hero = () => {
                     className="relative group shrink-0"
                     data-aos="zoom-in"
                 >
-                    
+                    {/* Outer Glow */}
+                    <div className="absolute -inset-3 rounded-full bg-gradient-to-r from-blue-600 via-indigo-500 to-purple-600 opacity-25 blur-xl transition duration-700 group-hover:opacity-50 group-hover:blur-2xl"></div>
+
+                    {/* Gradient Border */}
+                    <div className="relative rounded-full bg-gradient-to-br from-blue-500 via-indigo-500 to-purple-600 p-[5px] shadow-2xl shadow-blue-500/20 transition-transform duration-500 group-hover:scale-[1.03]">
+
+                        <div className="rounded-full bg-base-100 p-[5px]">
+                            <img
+                                src={rovi}
+                                className="w-64 h-64 md:w-80 md:h-80 lg:w-[380px] lg:h-[380px] rounded-full object-cover transition-transform duration-700 group-hover:scale-[1.02]"
+                                alt="Rahmatul Rovi"
+                            />
+                        </div>
+
+                    </div>
                 </div>
