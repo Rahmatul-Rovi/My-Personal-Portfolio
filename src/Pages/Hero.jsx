@@ -60,6 +60,18 @@ const Hero = () => {
                     className="flex-1 text-center lg:text-left"
                     data-aos="fade-right"
                 >
-                    
+                      {/* Introduction */}
+                    <p className="mb-4 text-sm md:text-base font-bold uppercase tracking-[0.25em] text-blue-600">
+                        Welcome to my portfolio
+                    </p>
+
+                    <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight leading-tight text-base-content">
+                        Hi, I'm
+                        <br />
+
+                        <span className="bg-gradient-to-r from-blue-600 via-indigo-500 to-purple-600 bg-clip-text text-transparent">
+                            Rahmatul Rovi
+                        </span>
+                    </h1>
                 </div>
                 </div>
