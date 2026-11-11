@@ -49,7 +49,7 @@ const Hero = () => {
                     <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full border border-blue-500/20 bg-base-100 px-5 py-2.5 shadow-xl">
                         <span className="flex items-center gap-2 text-sm font-semibold text-base-content">
                             <span className="h-2.5 w-2.5 rounded-full bg-green-500 animate-pulse"></span>
-                            Full Stack Developer
+                            Software Engineer
                         </span>
                     </div>
 
