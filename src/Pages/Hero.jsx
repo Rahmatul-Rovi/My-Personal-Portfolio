@@ -139,5 +139,21 @@ const Hero = () => {
                             <FiPlay className="text-lg text-blue-600 transition-all duration-300 group-hover:scale-125 group-hover:text-white" />
                         </button>
 
+  </div>
+
+
+                    {/* Scroll Indicator */}
+                    <div className="hidden lg:flex items-center gap-3 mt-12 text-sm font-medium text-base-content/40">
+                        <span className="h-px w-12 bg-gradient-to-r from-blue-500 to-transparent"></span>
+
+                        <span>Scroll to explore</span>
+
+                        <FiArrowDown className="animate-bounce text-blue-500" />
+                    </div>
+
+                </div>
+
+            </div>
+
                 </div>
                 </div>
