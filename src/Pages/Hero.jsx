@@ -91,5 +91,24 @@ const Hero = () => {
                         </span>
                     </div>
 
+                     {/* Description - Original Typing Effect Preserved */}
+                    <div className="max-w-2xl mx-auto lg:mx-0">
+
+                        <p className="text-lg md:text-xl lg:text-2xl text-base-content/65 leading-relaxed">
+
+                            A passionate Full Stack Developer dedicated to building scalable, high-performance web applications
+
+                            <span className="text-blue-600 font-bold ml-2">
+                                <Typewriter
+                                    words={[
+                                        'with seamless user experiences and robust backend logic.'
+                                    ]}
+                                    loop={1}
+                                    cursor={false}
+                                    typeSpeed={50}
+                                    delaySpeed={1000}
+                                />
+                            </span>
+
                 </div>
                 </div>
