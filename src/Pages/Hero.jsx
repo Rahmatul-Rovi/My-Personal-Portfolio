@@ -11,7 +11,7 @@ const Hero = () => {
         });
     };
 
-     return (
+    return (
         <section
             id="hero"
             className="relative min-h-screen flex items-center justify-center bg-base-100 pt-24 pb-16 overflow-hidden"
@@ -28,6 +28,7 @@ const Hero = () => {
                     className="relative group shrink-0"
                     data-aos="zoom-in"
                 >
+
                     {/* Outer Glow */}
                     <div className="absolute -inset-3 rounded-full bg-gradient-to-r from-blue-600 via-indigo-500 to-purple-600 opacity-25 blur-xl transition duration-700 group-hover:opacity-50 group-hover:blur-2xl"></div>
 
@@ -44,7 +45,7 @@ const Hero = () => {
 
                     </div>
 
-                     {/* Floating Badge */}
+                    {/* Floating Badge */}
                     <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full border border-blue-500/20 bg-base-100 px-5 py-2.5 shadow-xl">
                         <span className="flex items-center gap-2 text-sm font-semibold text-base-content">
                             <span className="h-2.5 w-2.5 rounded-full bg-green-500 animate-pulse"></span>
@@ -60,7 +61,8 @@ const Hero = () => {
                     className="flex-1 text-center lg:text-left"
                     data-aos="fade-right"
                 >
-                      {/* Introduction */}
+
+                    {/* Introduction */}
                     <p className="mb-4 text-sm md:text-base font-bold uppercase tracking-[0.25em] text-blue-600">
                         Welcome to my portfolio
                     </p>
@@ -73,13 +75,16 @@ const Hero = () => {
                             Rahmatul Rovi
                         </span>
                     </h1>
- {/* Typewriter Animation - Unchanged */}
+
+
+                    {/* Typewriter Animation - Unchanged */}
                     <div className="py-6 h-24 md:h-20">
                         <span className="text-xl md:text-3xl font-bold text-base-content/60">
                             <Typewriter
                                 words={[
                                     'Full Stack Web Developer',
-                                    'MERN Stack Developer'
+                                    'MERN Stack Developer',
+                                    'Software Engineer'
                                 ]}
                                 loop={0}
                                 cursor
@@ -91,7 +96,8 @@ const Hero = () => {
                         </span>
                     </div>
 
-                     {/* Description - Original Typing Effect Preserved */}
+
+                    {/* Description - Original Typing Effect Preserved */}
                     <div className="max-w-2xl mx-auto lg:mx-0">
 
                         <p className="text-lg md:text-xl lg:text-2xl text-base-content/65 leading-relaxed">
@@ -110,7 +116,7 @@ const Hero = () => {
                                 />
                             </span>
 
-  </p>
+                        </p>
 
                     </div>
 
@@ -139,7 +145,7 @@ const Hero = () => {
                             <FiPlay className="text-lg text-blue-600 transition-all duration-300 group-hover:scale-125 group-hover:text-white" />
                         </button>
 
-  </div>
+                    </div>
 
 
                     {/* Scroll Indicator */}
@@ -155,5 +161,8 @@ const Hero = () => {
 
             </div>
 
-                </div>
-                </div>
+        </section>
+    );
+};
+
+export default Hero;
