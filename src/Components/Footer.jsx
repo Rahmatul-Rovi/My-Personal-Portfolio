@@ -15,6 +15,12 @@ import {
 } from "react-icons/fa";
 
 const Footer = () => {
+  const handleBackToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+};
   const currentYear = new Date().getFullYear();
 
   const navLinks = [
@@ -184,13 +190,13 @@ const Footer = () => {
               </span>
             </p>
 
-            <a
-              href="/#home"
-              className="group flex items-center gap-2 rounded-xl border border-base-content/10 bg-base-100 px-4 py-2 text-sm font-semibold transition-all duration-300 hover:border-blue-500 hover:bg-blue-600 hover:text-white"
-            >
-              Back to Top
-              <FaArrowUp className="transition-transform duration-300 group-hover:-translate-y-1" />
-            </a>
+          <button
+  onClick={handleBackToTop}
+  className="group flex items-center gap-2 rounded-xl border border-base-content/10 bg-base-100 px-4 py-2 text-sm font-semibold transition-all duration-300 hover:border-blue-500 hover:bg-blue-600 hover:text-white"
+>
+  Back to Top
+  <FaArrowUp className="transition-transform duration-300 group-hover:-translate-y-1" />
+</button>
 
           </div>
         </div>
@@ -201,3 +207,7 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
+
+
