@@ -16,7 +16,7 @@ const About = () => {
         });
     };
 
-     return (
+    return (
         <section
             id="about"
             className="relative overflow-hidden bg-base-100 px-6 py-24"
@@ -46,6 +46,7 @@ const About = () => {
                     <div className="mx-auto h-1.5 w-20 rounded-full bg-gradient-to-r from-blue-600 to-purple-600"></div>
 
                 </div>
+
 
                 {/* Main Content */}
                 <div className="flex flex-col items-center gap-14 lg:flex-row lg:gap-20">
@@ -109,7 +110,8 @@ const About = () => {
                             </span>
                         </h3>
 
- {/* Description */}
+
+                        {/* Description */}
                         <div className="rounded-2xl border border-base-content/10 bg-base-200/70 p-6 shadow-lg backdrop-blur-md md:p-7">
 
                             <p className="text-base leading-8 text-base-content/70 md:text-lg md:leading-9 text-justify">
@@ -153,3 +155,57 @@ const About = () => {
                                 </p>
 
                             </div>
+
+
+                            {/* Learning */}
+                            <div className="group rounded-2xl border border-base-content/10 bg-base-200 p-6 shadow-md transition-all duration-300 hover:-translate-y-2 hover:border-purple-500/50 hover:shadow-xl hover:shadow-purple-500/10">
+
+                                <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-purple-500/10 text-2xl text-purple-600 transition-transform duration-300 group-hover:scale-110">
+                                    <FaGraduationCap />
+                                </div>
+
+                                <h4 className="text-2xl font-extrabold text-base-content">
+                                    Lifelong
+                                </h4>
+
+                                <p className="mt-1 text-sm font-medium text-base-content/60">
+                                    Learning & Growth
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        {/* My Journey Button */}
+                        <div className="pt-5">
+
+                            <button
+                                onClick={() => scrollToSection('education')}
+                                className="group relative inline-flex items-center justify-center overflow-hidden rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 px-9 py-4 font-bold text-white shadow-lg shadow-blue-500/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-blue-500/30 active:scale-95"
+                            >
+
+                                <span className="relative z-10">
+                                    My Journey
+                                </span>
+
+                                <FiArrowRightCircle className="relative z-10 ml-3 text-xl transition-transform duration-300 group-hover:translate-x-2" />
+
+                                {/* Shine Effect */}
+                                <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/20 to-transparent transition-transform duration-700 group-hover:translate-x-full"></span>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+    );
+};
+
+export default About;
