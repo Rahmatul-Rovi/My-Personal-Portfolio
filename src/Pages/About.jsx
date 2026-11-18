@@ -74,3 +74,37 @@ const About = () => {
                                 <div className="pointer-events-none absolute inset-2 rounded-2xl bg-gradient-to-t from-blue-950/20 via-transparent to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
 
                             </div>
+
+                            {/* Floating Badge */}
+                            <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-xl border border-base-content/10 bg-base-100 px-6 py-3 shadow-xl">
+                                <p className="flex items-center gap-2 text-sm font-bold text-base-content">
+                                    <FaLaptopCode className="text-blue-600" />
+                                    Full Stack Web Developer
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    {/* Text Section */}
+                    <div
+                        className="w-full space-y-6 lg:w-1/2"
+                        data-aos="fade-left"
+                    >
+
+                        {/* Small Heading */}
+                        <div className="flex items-center gap-3 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">
+                            <FaUserTie className="text-lg" />
+                            Who I Am
+                        </div>
+
+
+                        {/* Main Heading */}
+                        <h3 className="text-3xl font-extrabold leading-tight text-base-content md:text-4xl">
+                            Crafting High-Performance Websites with{' '}
+                            <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                                Precision
+                            </span>
+                        </h3>
