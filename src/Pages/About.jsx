@@ -108,3 +108,48 @@ const About = () => {
                                 Precision
                             </span>
                         </h3>
+
+ {/* Description */}
+                        <div className="rounded-2xl border border-base-content/10 bg-base-200/70 p-6 shadow-lg backdrop-blur-md md:p-7">
+
+                            <p className="text-base leading-8 text-base-content/70 md:text-lg md:leading-9 text-justify">
+
+                                I am a passionate{' '}
+                                <span className="font-semibold text-blue-600">
+                                    Full Stack Developer
+                                </span>{' '}
+                                who believes that writing code is an art form.
+                                By leveraging{' '}
+                                <span className="font-semibold text-blue-600">
+                                    React, Node.js
+                                </span>
+                                , and modern technologies, I build impactful
+                                solutions that simplify complex problems for
+                                users. Problem-solving is my core motivation,
+                                and I continuously improve my skills by
+                                learning and exploring new technologies.
+
+                            </p>
+
+                        </div>
+
+
+                        {/* Statistics Cards */}
+                        <div className="grid grid-cols-1 gap-5 pt-3 sm:grid-cols-2">
+
+                            {/* Projects */}
+                            <div className="group rounded-2xl border border-base-content/10 bg-base-200 p-6 shadow-md transition-all duration-300 hover:-translate-y-2 hover:border-blue-500/50 hover:shadow-xl hover:shadow-blue-500/10">
+
+                                <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-blue-500/10 text-2xl text-blue-600 transition-transform duration-300 group-hover:scale-110">
+                                    <FaCode />
+                                </div>
+
+                                <h4 className="text-3xl font-extrabold text-base-content">
+                                    10+
+                                </h4>
+
+                                <p className="mt-1 text-sm font-medium text-base-content/60">
+                                    Completed Projects
+                                </p>
+
+                            </div>
