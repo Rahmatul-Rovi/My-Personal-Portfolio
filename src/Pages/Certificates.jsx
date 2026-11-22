@@ -69,3 +69,27 @@ const Certificates = () => {
             <FaAward />
             Achievements & Learning
           </span>
+
+           <h2 className="mt-5 text-4xl font-extrabold tracking-tight text-base-content md:text-6xl">
+            My{" "}
+            <span className="bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 bg-clip-text text-transparent">
+              Certificates
+            </span>
+          </h2>
+
+          <p className="mx-auto mt-5 max-w-2xl text-base leading-8 text-base-content/60 md:text-lg">
+            A collection of achievements, certifications, competitions, and
+            learning experiences that reflect my continuous journey of growth
+            and development.
+          </p>
+        </div>
+
+        {/* Certificate Cards */}
+        <div className="grid grid-cols-1 gap-7 sm:grid-cols-2 lg:grid-cols-3">
+          {certificateList.map((cert, index) => (
+            <div
+              key={cert.id}
+              data-aos="fade-up"
+              data-aos-delay={(index % 3) * 100}
+              className="group relative overflow-hidden rounded-3xl border border-base-content/10 bg-base-200 shadow-md transition-all duration-500 hover:-translate-y-2 hover:border-blue-500/30 hover:shadow-2xl hover:shadow-blue-500/10"
+            ></div>
