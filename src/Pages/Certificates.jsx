@@ -6,3 +6,22 @@ import Aptitude from "../assets/Grameenphone-Aptitude-Certificate.png";
 import ATS from "../assets/Grameenphone-ATS-CV-Certificate.png";
 
 import { FaAward, FaExternalLinkAlt } from "react-icons/fa";
+
+const Certificates = () => {
+  const certificateList = [
+    {
+      id: 1,
+      title: "Web Development Course",
+      organization: "Programming Hero",
+      issueDate: "2025",
+      image: Hero,
+      category: "Web Development",
+    },
+    {
+      id: 2,
+      title: "Intra Intake Programming Contest (IIPC)",
+      organization: "Bangladesh University of Business and Technology",
+      issueDate: "2024",
+      image: Bubt,
+      category: "Programming Contest",
+    },
