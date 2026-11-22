@@ -26,7 +26,6 @@ const Certificates = () => {
       category: "Programming Contest",
     },
     {
-
       id: 3,
       title: "Hacktasyne 10-Hour Hackathon",
       organization: "Bangladesh University of Business and Technology",
@@ -70,7 +69,7 @@ const Certificates = () => {
             Achievements & Learning
           </span>
 
-           <h2 className="mt-5 text-4xl font-extrabold tracking-tight text-base-content md:text-6xl">
+          <h2 className="mt-5 text-4xl font-extrabold tracking-tight text-base-content md:text-6xl">
             My{" "}
             <span className="bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 bg-clip-text text-transparent">
               Certificates
@@ -92,9 +91,8 @@ const Certificates = () => {
               data-aos="fade-up"
               data-aos-delay={(index % 3) * 100}
               className="group relative overflow-hidden rounded-3xl border border-base-content/10 bg-base-200 shadow-md transition-all duration-500 hover:-translate-y-2 hover:border-blue-500/30 hover:shadow-2xl hover:shadow-blue-500/10"
-            ></div>
-
-             {/* Certificate Image */}
+            >
+              {/* Certificate Image */}
               <div className="relative aspect-[16/10] overflow-hidden bg-base-300">
                 <img
                   src={cert.image}
@@ -142,6 +140,7 @@ const Certificates = () => {
                 <h3 className="mb-3 text-lg font-bold leading-7 text-base-content transition-colors duration-300 group-hover:text-blue-500">
                   {cert.title}
                 </h3>
+
                 {/* Organization */}
                 <p className="min-h-[48px] text-sm leading-6 text-base-content/60">
                   {cert.organization}
@@ -164,4 +163,34 @@ const Certificates = () => {
                     rel="noreferrer"
                     title="View Certificate"
                     className="flex h-10 w-10 items-center justify-center rounded-xl border border-base-content/10 bg-base-100 text-base-content/50 transition-all duration-300 hover:border-blue-500 hover:bg-blue-600 hover:text-white"
-                  ></a>
+                  >
+                    <FaExternalLinkAlt />
+                  </a>
+                </div>
+              </div>
+
+              {/* Bottom Gradient */}
+              <div className="h-1 w-full bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+            </div>
+          ))}
+        </div>
+
+        {/* Bottom Achievement Note */}
+        <div
+          className="mt-14 text-center"
+          data-aos="fade-up"
+        >
+          <div className="inline-flex flex-wrap items-center justify-center gap-3 rounded-2xl border border-base-content/5 bg-base-200 px-6 py-4">
+            <FaAward className="text-xl text-blue-500" />
+            <p className="text-sm text-base-content/60">
+              Always learning, improving, and building new skills.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  );
+};
+
+export default Certificates;
