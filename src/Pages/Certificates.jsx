@@ -142,3 +142,26 @@ const Certificates = () => {
                 <h3 className="mb-3 text-lg font-bold leading-7 text-base-content transition-colors duration-300 group-hover:text-blue-500">
                   {cert.title}
                 </h3>
+                {/* Organization */}
+                <p className="min-h-[48px] text-sm leading-6 text-base-content/60">
+                  {cert.organization}
+                </p>
+
+                {/* Bottom Info */}
+                <div className="mt-5 flex items-center justify-between border-t border-base-content/10 pt-4">
+                  <div>
+                    <span className="text-xs text-base-content/40">
+                      Issued Date
+                    </span>
+                    <p className="mt-1 text-sm font-semibold text-base-content/70">
+                      {cert.issueDate}
+                    </p>
+                  </div>
+
+                  <a
+                    href={cert.image}
+                    target="_blank"
+                    rel="noreferrer"
+                    title="View Certificate"
+                    className="flex h-10 w-10 items-center justify-center rounded-xl border border-base-content/10 bg-base-100 text-base-content/50 transition-all duration-300 hover:border-blue-500 hover:bg-blue-600 hover:text-white"
+                  ></a>
