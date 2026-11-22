@@ -93,3 +93,25 @@ const Certificates = () => {
               data-aos-delay={(index % 3) * 100}
               className="group relative overflow-hidden rounded-3xl border border-base-content/10 bg-base-200 shadow-md transition-all duration-500 hover:-translate-y-2 hover:border-blue-500/30 hover:shadow-2xl hover:shadow-blue-500/10"
             ></div>
+
+             {/* Certificate Image */}
+              <div className="relative aspect-[16/10] overflow-hidden bg-base-300">
+                <img
+                  src={cert.image}
+                  alt={cert.title}
+                  loading="lazy"
+                  className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                />
+
+                {/* Image Overlay */}
+                <div className="absolute inset-0 flex items-center justify-center bg-black/60 opacity-0 transition-all duration-300 group-hover:opacity-100">
+                  <a
+                    href={cert.image}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex items-center gap-2 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 px-5 py-3 text-sm font-semibold text-white shadow-lg transition-all duration-300 hover:scale-105"
+                  >
+                    View Certificate
+                    <FaExternalLinkAlt />
+                  </a>
+                </div>
