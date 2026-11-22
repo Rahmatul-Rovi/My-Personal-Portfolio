@@ -25,3 +25,29 @@ const Certificates = () => {
       image: Bubt,
       category: "Programming Contest",
     },
+    {
+
+      id: 3,
+      title: "Hacktasyne 10-Hour Hackathon",
+      organization: "Bangladesh University of Business and Technology",
+      issueDate: "2025",
+      image: hack,
+      category: "Hackathon",
+    },
+    {
+      id: 4,
+      title: "Ace the Aptitude Test",
+      organization: "Grameenphone Academy",
+      issueDate: "November 15, 2026",
+      image: Aptitude,
+      category: "Career Development",
+    },
+    {
+      id: 5,
+      title: "Build ATS-Winning CV",
+      organization: "Grameenphone Academy",
+      issueDate: "November 15, 2026",
+      image: ATS,
+      category: "Career Development",
+    },
+  ];
