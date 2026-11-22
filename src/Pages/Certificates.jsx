@@ -115,3 +115,30 @@ const Certificates = () => {
                     <FaExternalLinkAlt />
                   </a>
                 </div>
+
+                {/* Category Badge */}
+                <div className="absolute left-4 top-4">
+                  <span className="rounded-full border border-white/20 bg-black/50 px-3 py-1.5 text-xs font-semibold text-white backdrop-blur-md">
+                    {cert.category}
+                  </span>
+                </div>
+              </div>
+
+              {/* Card Details */}
+              <div className="p-6">
+                {/* Icon & Verified */}
+                <div className="mb-4 flex items-center justify-between">
+                  <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-blue-500/15 to-purple-500/15 text-xl text-blue-500">
+                    <FaAward />
+                  </div>
+
+                  <span className="flex items-center gap-1.5 rounded-full border border-emerald-500/20 bg-emerald-500/10 px-3 py-1 text-xs font-semibold text-emerald-500">
+                    <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
+                    Completed
+                  </span>
+                </div>
+
+                {/* Title */}
+                <h3 className="mb-3 text-lg font-bold leading-7 text-base-content transition-colors duration-300 group-hover:text-blue-500">
+                  {cert.title}
+                </h3>
