@@ -51,3 +51,21 @@ const Certificates = () => {
       category: "Career Development",
     },
   ];
+
+  return (
+    <section
+      id="certificates"
+      className="relative overflow-hidden bg-base-100 px-5 py-24 md:px-8"
+    >
+      {/* Background Decorations */}
+      <div className="pointer-events-none absolute -left-32 top-20 h-80 w-80 rounded-full bg-blue-500/10 blur-[120px]" />
+      <div className="pointer-events-none absolute -right-32 bottom-0 h-80 w-80 rounded-full bg-purple-500/10 blur-[120px]" />
+
+      <div className="relative mx-auto max-w-7xl">
+
+        {/* Section Header */}
+        <div className="mb-16 text-center" data-aos="fade-up">
+          <span className="mb-4 inline-flex items-center gap-2 rounded-full border border-blue-500/20 bg-blue-500/10 px-4 py-2 text-sm font-semibold text-blue-500">
+            <FaAward />
+            Achievements & Learning
+          </span>
